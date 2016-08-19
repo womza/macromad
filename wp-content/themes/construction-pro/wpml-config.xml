@@ -1,0 +1,19 @@
+<wpml-config>
+    <admin-texts>
+        <key name="cmsmasters_options_construction_pro_style_header">
+            <key name="construction_pro_header_top_line_short_info" />
+        </key>
+        <key name="cmsmasters_options_construction_pro_style_footer">
+            <key name="construction_pro_footer_html" />
+            <key name="construction_pro_footer_copyright" />
+        </key>
+        <key name="cmsmasters_options_construction_pro_single_project">
+            <key name="construction_pro_portfolio_project_details_title" />
+        </key>
+        <key name="cmsmasters_options_construction_pro_single_profile">
+            <key name="construction_pro_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

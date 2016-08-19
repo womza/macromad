@@ -1,0 +1,2402 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Construction PRO
+ * @version 	1.0.0
+ * 
+ * Theme Secondary Color Schemes Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+/***************** Start Default WooCommerce Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	.widget ul.product_list_widget li .widget_product_info del .amount, 
+	.cmsmasters_single_product .cmsmasters_product_left_column .product_meta > span .sku, 
+	.cart_totals .shipping #shipping_method .amount, 
+	.shop_table .shipping #shipping_method .amount, 
+	#ship-to-different-address, 
+	.select2-container .select2-choice, 
+	.select2-container.select2-drop-above .select2-choice, 
+	.select2-container.select2-container-active .select2-choice, 
+	.select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	.select2-drop.select2-drop-active, 
+	.select2-drop.select2-drop-above.select2-drop-active {
+		color:#969696;
+	}
+
+	.widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	.shop_table td.product-remove .remove {
+		background-color:#969696;
+	}
+
+	/* Finish Main Content Font Color */
+
+
+	/* Start Primary Color */
+	.cmsmasters_single_product .posted_in > a:hover, 
+	.required, 
+	.cmsmasters_product_cat > a:hover, 
+	.cmsmasters_star_rating .cmsmasters_star_color_wrap .cmsmasters_star, 
+	.woocommerce-info a:not(.button):hover, 
+	.woocommerce-message a:not(.button):hover, 
+	.woocommerce-error a:not(.button):hover, 
+	.comment-form-rating .stars > span a:hover, 
+	.comment-form-rating .stars > span a.active {
+		color:#f3c14b;
+	}
+
+	.widget_shopping_cart .widget_shopping_cart_content .buttons .button, 
+	.widget_product_categories .product-categories .cat-item:hover, 
+	.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-range, 
+	.cmsmasters_woo input[type=radio] + label:after, 
+	#shipping_method input[type=checkbox] + label:after, 
+	#ship-to-different-address input[type=checkbox] + label:after, 
+	.payment_methods input[type=checkbox] + label:after,  
+	.cart_totals input[type=radio] + label:after, 
+	.shipping-calculator-button:before, 
+	.woocommerce-remove-coupon:before, 
+	.cmsmasters_woo .button, 
+	.shop_table td.product-remove .remove:hover, 
+	.widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove:hover, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove:hover, 
+	.cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	.cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a, 
+	.out-of-stock, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button, 
+	.shop_table thead tr, 
+	.order_details li span:first-child, 
+	.customer_details tr:first-child td, 
+	.customer_details tr:first-child th {
+		background-color:#f3c14b;
+	}
+
+	.select2-container.select2-container-active .select2-choice, 
+	.select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	.select2-drop.select2-drop-active, 
+	.select2-drop.select2-drop-above.select2-drop-active {
+		border-color:#f3c14b;
+	}
+	/* Finish Primary Color */
+
+
+	/* Start Secondary Color */
+	.cmsmasters_single_product .cmsmasters_woo_tabs .cmsmasters_tabs_list li a,  
+	.woocommerce-info a, 
+	.woocommerce-message a, 
+	.woocommerce-error a, 
+	.cmsmasters_product_cat > a {
+		color:#ce4e45;
+	}
+
+	.cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	.onsale {
+		background-color:#ce4e45;
+	}
+	/* Finish Secondary Color */
+
+
+	/* Start Highlight Color */
+	.widget ul.product_list_widget li a:hover, 
+	.cmsmasters_single_product .posted_in > a, 
+	.shop_table td a:hover, 
+	.cmsmasters_products .product.product-category a:hover > h3, 
+	.cmsmasters_products .product.product-category a:hover > h3 > mark, 
+	.cmsmasters_product_title a:hover, 
+	.widget_shopping_cart .widget_shopping_cart_content .cart_list li > a:hover, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li	> a:hover {
+		color:#ce4e45;
+	}
+
+	.widget_shopping_cart .widget_shopping_cart_content .buttons .button:hover, 
+	.cmsmasters_woo .button:hover, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button:hover, 
+	.cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a:hover {
+		background-color:#ce4e45;
+	}
+	/* Finish Highlight Color */
+
+
+	/* Start Headings Color */
+	.widget ul.product_list_widget li .reviewer, 
+	.widget ul.product_list_widget li a, 
+	.widget ul.product_list_widget li .widget_product_info .amount, 
+	.widget ul.product_list_widget li a, 
+	.widget_product_categories .product-categories .cat-item > a, 
+	.widget_product_categories .product-categories .cat-item, 
+	.cmsmasters_single_product .single_variation_wrap .single_variation .price ins .amount, 
+	.cmsmasters_single_product .single_variation_wrap .single_variation .price > .amount, 
+	.cmsmasters_single_product .product_info_top .price > .amount, 
+	.cmsmasters_single_product .cmsmasters_woo_tabs #reviews .comment-respond label, 
+	.cmsmasters_single_product .cmsmasters_woo_tabs .comment_container .comment-text .meta time, 
+	.cmsmasters_single_product .cmsmasters_woo_tabs .shop_attributes, 
+	.cmsmasters_single_product .product_meta, 
+	.cmsmasters_single_product .product_info_top .price ins, 
+	.woocommerce .shop_table, 
+	.woocommerce-view-order .order_details td:first-child, 
+	.woocommerce-view-order .order_details th:first-child, 
+	.woocommerce .myaccount_user strong, 
+	.customer_details, 
+	.woocommerce-order-received .woocommerce .shop_table.order_details, 
+	.order_details li span:last-child, 
+	.customer_details tr:last-child td, 
+	.customer_details tr:last-child th, 
+	#order_review .shop_table tr.order-total .amount, 
+	#order_review .shop_table tbody tr td:first-child, 
+	#order_review .shop_table tbody tr th:first-child, 
+	#order_review .shop_table tfoot tr td:first-child, 
+	#order_review .shop_table tfoot tr th:first-child, 
+	.woocommerce-billing-fields, 
+	.woocommerce-shipping-fields, 
+	.shipping-calculator-button:hover, 
+	.shipping-calculator-button, 
+	.cmsmasters_woo a.woocommerce-remove-coupon:hover, 
+	.cmsmasters_woo a.woocommerce-remove-coupon, 
+	.cart_totals .amount,  
+	.cart_totals th, 
+	.shop_table td .amount, 
+	.shop_table td a, 
+	.cmsmasters_product_info .price > .amount, 
+	.cmsmasters_product_info .price ins > .amount, 
+	.woocommerce-info, 
+	.woocommerce-message, 
+	.woocommerce-error, 
+	.cmsmasters_products .product.product-category a h3 > mark, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li	> a, 
+	.widget_shopping_cart .widget_shopping_cart_content .cart_list li > a, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .total,
+	.widget_shopping_cart .widget_shopping_cart_content .total, 	
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li .quantity, 
+	.widget_shopping_cart .widget_shopping_cart_content .cart_list li .quantity, 
+	.cmsmasters_added_product_info .cmsmasters_added_product_info_text {
+		color:#3d3d3d;
+	}
+
+	.cmsmasters_dynamic_cart .cmsmasters_added_product_info, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content {
+		-webkit-box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+		-moz-box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+		box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+	}
+	/* Finish Headings Color */
+
+
+	/* Start Main Background Color */
+	.widget_shopping_cart .widget_shopping_cart_content .buttons .button, 
+	.widget_product_categories .product-categories .cat-item:hover a, 
+	.my_account_orders .order-actions a:hover, 
+	.cmsmasters_woo .button, 
+	.shop_table thead tr th, 
+	.shop_table thead tr td, 
+	.woocommerce-view-order .order_details thead th:first-child, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button, 
+	.cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	.cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a > span, 
+	.onsale, 
+	.out-of-stock, 
+	.shop_table td.product-remove .remove:hover, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	.widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	.shop_table td.product-remove .remove, 
+	.order_details li span:first-child, 
+	.customer_details tr:first-child td, 
+	.customer_details tr:first-child th {
+		color:#ffffff;
+	}
+
+	.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle, 
+	.cmsmasters_added_product_info, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content, 
+	.cmsmasters_product_img_wrap:after {
+		background-color:#ffffff;
+	}
+	/* Finish Main Background Color */
+
+
+	/* Start Alternate Background Color */ 
+	.widget_product_categories .product-categories .cat-item, 
+	.cmsmasters_single_product .cmsmasters_woo_tabs .cmsmasters_tabs_list,  
+	.cmsmasters_woo input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	.cmsmasters_woo select, 
+	.cmsmasters_woo textarea, 
+	.woocommerce-info, 
+	.woocommerce-message, 
+	.woocommerce-error, 
+	.select2-container.select2-container-active .select2-choice, 
+	.select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	.select2-drop.select2-drop-active, 
+	.select2-drop.select2-drop-above.select2-drop-active, 
+	.woocommerce-ordering select, 
+	.select2-container .select2-choice, 
+	.select2-container.select2-drop-above .select2-choice, 
+	#order_review .shop_table tr.order-total td, 
+	#order_review .shop_table tr.order-total th, 
+	.woocommerce-view-order .order_details tfoot tr:last-child th, 
+	.woocommerce-view-order .order_details tfoot tr:last-child td, 
+	.order_details li span:last-child, 
+	.customer_details tr:last-child td, 
+	.customer_details tr:last-child th, 
+	.woocommerce-order-received .woocommerce .shop_table.order_details tfoot tr:last-child td, 
+	.woocommerce-order-received .woocommerce .shop_table.order_details tfoot tr:last-child th {
+		background-color:#f9f9f9;
+	}
+	/* Finish Alternate Background Color */
+
+
+	/* Start Borders Color */
+	.comment-form-rating .stars > span, 
+	.cmsmasters_star_rating .cmsmasters_star {
+		color:#e9e9e9;
+	}
+
+	.widget_price_filter .price_slider_wrapper .price_slider {
+		background-color:#e9e9e9;
+	}
+
+	.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle, 
+	.cmsmasters_single_product .cmsmasters_woo_tabs .comment-text .meta, 
+	.cmsmasters_woo input[type=radio] + label:before, 
+	#shipping_method input[type=checkbox] + label:before, 
+	#ship-to-different-address input[type=checkbox] + label:before, 
+	.payment_methods input[type=checkbox] + label:before,  
+	.cart_totals input[type=radio] + label:before, 
+	.cart_totals table tr.order-total td, 
+	.cart_totals table tr.order-total th, 
+	.shop_table td,
+	.shop_table th,
+	.select2-container .select2-choice, 
+	.select2-container.select2-drop-above .select2-choice {
+		border-color:#e9e9e9;
+	}
+
+	@media only screen and (max-width: 767px) {
+		.shop_table.cart .cart_item {
+			border-color:#e9e9e9;
+		}
+	}
+
+	/* Finish Borders Color */
+
+/***************** Finish Default WooCommerce Color Scheme Rules ******************/
+
+
+
+/***************** Start Footer WooCommerce Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_footer .widget ul.product_list_widget li .widget_product_info del .amount, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .cmsmasters_product_left_column .product_meta > span .sku, 
+	html .cmsmasters_color_scheme_footer .cart_totals .shipping #shipping_method .amount, 
+	html .cmsmasters_color_scheme_footer .shop_table .shipping #shipping_method .amount, 
+	html .cmsmasters_color_scheme_footer #ship-to-different-address, 
+	html .cmsmasters_color_scheme_footer .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-above.select2-drop-active {
+		color:#cac9c9;
+	}
+
+	html .cmsmasters_color_scheme_footer .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_footer .shop_table td.product-remove .remove {
+		background-color:#cac9c9;
+	}
+
+	/* Finish Main Content Font Color */
+
+
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .posted_in > a:hover, 
+	html .cmsmasters_color_scheme_footer .required, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product_cat > a:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_star_rating .cmsmasters_star_color_wrap .cmsmasters_star, 
+	html .cmsmasters_color_scheme_footer .woocommerce-info a:not(.button):hover, 
+	html .cmsmasters_color_scheme_footer .woocommerce-message a:not(.button):hover, 
+	html .cmsmasters_color_scheme_footer .woocommerce-error a:not(.button):hover, 
+	html .cmsmasters_color_scheme_footer .comment-form-rating .stars > span a:hover, 
+	html .cmsmasters_color_scheme_footer .comment-form-rating .stars > span a.active {
+		color:#d2d2d2;
+	}
+
+	html .cmsmasters_color_scheme_footer .widget_shopping_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_footer .widget_product_categories .product-categories .cat-item:hover, 
+	html .cmsmasters_color_scheme_footer .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-range, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo input[type=radio] + label:after, 
+	html .cmsmasters_color_scheme_footer #shipping_method input[type=checkbox] + label:after, 
+	html .cmsmasters_color_scheme_footer #ship-to-different-address input[type=checkbox] + label:after, 
+	html .cmsmasters_color_scheme_footer .payment_methods input[type=checkbox] + label:after,  
+	html .cmsmasters_color_scheme_footer .cart_totals input[type=radio] + label:after, 
+	html .cmsmasters_color_scheme_footer .shipping-calculator-button:before, 
+	html .cmsmasters_color_scheme_footer .woocommerce-remove-coupon:before, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo .button, 
+	html .cmsmasters_color_scheme_footer .shop_table td.product-remove .remove:hover, 
+	html .cmsmasters_color_scheme_footer .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a, 
+	html .cmsmasters_color_scheme_footer .out-of-stock, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_footer .shop_table thead tr, 
+	html .cmsmasters_color_scheme_footer .order_details li span:first-child, 
+	html .cmsmasters_color_scheme_footer .customer_details tr:first-child td, 
+	html .cmsmasters_color_scheme_footer .customer_details tr:first-child th {
+		background-color:#d2d2d2;
+	}
+
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-above.select2-drop-active {
+		border-color:#d2d2d2;
+	}
+	/* Finish Primary Color */
+
+
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .cmsmasters_woo_tabs .cmsmasters_tabs_list li a,  
+	html .cmsmasters_color_scheme_footer .woocommerce-info a, 
+	html .cmsmasters_color_scheme_footer .woocommerce-message a, 
+	html .cmsmasters_color_scheme_footer .woocommerce-error a, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product_cat > a {
+		color:#838282;
+	}
+
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_footer .onsale {
+		background-color:#838282;
+	}
+	/* Finish Secondary Color */
+
+
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_footer .widget ul.product_list_widget li a:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .posted_in > a, 
+	html .cmsmasters_color_scheme_footer .shop_table td a:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_products .product.product-category a:hover > h3, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_products .product.product-category a:hover > h3 > mark, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product_title a:hover, 
+	html .cmsmasters_color_scheme_footer .widget_shopping_cart .widget_shopping_cart_content .cart_list li > a:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li	> a:hover {
+		color:#f3c14b;
+	}
+
+	html .cmsmasters_color_scheme_footer .widget_shopping_cart .widget_shopping_cart_content .buttons .button:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo .button:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a:hover {
+		background-color:#f3c14b;
+	}
+	/* Finish Highlight Color */
+
+
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_footer .widget ul.product_list_widget li .reviewer, 
+	html .cmsmasters_color_scheme_footer .widget ul.product_list_widget li a, 
+	html .cmsmasters_color_scheme_footer .widget ul.product_list_widget li .widget_product_info .amount, 
+	html .cmsmasters_color_scheme_footer .widget ul.product_list_widget li a, 
+	html .cmsmasters_color_scheme_footer .widget_product_categories .product-categories .cat-item > a, 
+	html .cmsmasters_color_scheme_footer .widget_product_categories .product-categories .cat-item, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .single_variation_wrap .single_variation .price ins .amount, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .single_variation_wrap .single_variation .price > .amount, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .product_info_top .price > .amount, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .cmsmasters_woo_tabs #reviews .comment-respond label, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .cmsmasters_woo_tabs .comment_container .comment-text .meta time, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .cmsmasters_woo_tabs .shop_attributes, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .product_meta, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .product_info_top .price ins, 
+	html .cmsmasters_color_scheme_footer .woocommerce .shop_table, 
+	html .cmsmasters_color_scheme_footer .woocommerce-view-order .order_details td:first-child, 
+	html .cmsmasters_color_scheme_footer .woocommerce-view-order .order_details th:first-child, 
+	html .cmsmasters_color_scheme_footer .woocommerce .myaccount_user strong, 
+	html .cmsmasters_color_scheme_footer .customer_details, 
+	html .cmsmasters_color_scheme_footer .woocommerce-order-received .woocommerce .shop_table.order_details, 
+	html .cmsmasters_color_scheme_footer .order_details li span:last-child, 
+	html .cmsmasters_color_scheme_footer .customer_details tr:last-child td, 
+	html .cmsmasters_color_scheme_footer .customer_details tr:last-child th, 
+	html .cmsmasters_color_scheme_footer #order_review .shop_table tr.order-total .amount, 
+	html .cmsmasters_color_scheme_footer #order_review .shop_table tbody tr td:first-child, 
+	html .cmsmasters_color_scheme_footer #order_review .shop_table tbody tr th:first-child, 
+	html .cmsmasters_color_scheme_footer #order_review .shop_table tfoot tr td:first-child, 
+	html .cmsmasters_color_scheme_footer #order_review .shop_table tfoot tr th:first-child, 
+	html .cmsmasters_color_scheme_footer .woocommerce-billing-fields, 
+	html .cmsmasters_color_scheme_footer .woocommerce-shipping-fields, 
+	html .cmsmasters_color_scheme_footer .shipping-calculator-button:hover, 
+	html .cmsmasters_color_scheme_footer .shipping-calculator-button, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo a.woocommerce-remove-coupon:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo a.woocommerce-remove-coupon, 
+	html .cmsmasters_color_scheme_footer .cart_totals .amount,  
+	html .cmsmasters_color_scheme_footer .cart_totals th, 
+	html .cmsmasters_color_scheme_footer .shop_table td .amount, 
+	html .cmsmasters_color_scheme_footer .shop_table td a, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product_info .price > .amount, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product_info .price ins > .amount, 
+	html .cmsmasters_color_scheme_footer .woocommerce-info, 
+	html .cmsmasters_color_scheme_footer .woocommerce-message, 
+	html .cmsmasters_color_scheme_footer .woocommerce-error, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_products .product.product-category a h3 > mark, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li	> a, 
+	html .cmsmasters_color_scheme_footer .widget_shopping_cart .widget_shopping_cart_content .cart_list li > a, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .total,
+	html .cmsmasters_color_scheme_footer .widget_shopping_cart .widget_shopping_cart_content .total, 	
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li .quantity, 
+	html .cmsmasters_color_scheme_footer .widget_shopping_cart .widget_shopping_cart_content .cart_list li .quantity, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_added_product_info .cmsmasters_added_product_info_text {
+		color:#ffffff;
+	}
+
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content {
+		-webkit-box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+		-moz-box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+		box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+	}
+	/* Finish Headings Color */
+
+
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_footer .widget_shopping_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_footer .widget_product_categories .product-categories .cat-item:hover a, 
+	html .cmsmasters_color_scheme_footer .my_account_orders .order-actions a:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo .button, 
+	html .cmsmasters_color_scheme_footer .shop_table thead tr th, 
+	html .cmsmasters_color_scheme_footer .shop_table thead tr td, 
+	html .cmsmasters_color_scheme_footer .woocommerce-view-order .order_details thead th:first-child, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a > span, 
+	html .cmsmasters_color_scheme_footer .onsale, 
+	html .cmsmasters_color_scheme_footer .out-of-stock, 
+	html .cmsmasters_color_scheme_footer .shop_table td.product-remove .remove:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_footer .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_footer .shop_table td.product-remove .remove, 
+	html .cmsmasters_color_scheme_footer .order_details li span:first-child, 
+	html .cmsmasters_color_scheme_footer .customer_details tr:first-child td, 
+	html .cmsmasters_color_scheme_footer .customer_details tr:first-child th {
+		color:#353232;
+	}
+
+	html .cmsmasters_color_scheme_footer .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product_img_wrap:after {
+		background-color:#353232;
+	}
+	/* Finish Main Background Color */
+
+
+	/* Start Alternate Background Color */ 
+	html .cmsmasters_color_scheme_footer .widget_product_categories .product-categories .cat-item, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .cmsmasters_woo_tabs .cmsmasters_tabs_list,  
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo select, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo textarea, 
+	html .cmsmasters_color_scheme_footer .woocommerce-info, 
+	html .cmsmasters_color_scheme_footer .woocommerce-message, 
+	html .cmsmasters_color_scheme_footer .woocommerce-error, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-above.select2-drop-active, 
+	html .cmsmasters_color_scheme_footer .woocommerce-ordering select, 
+	html .cmsmasters_color_scheme_footer .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_footer #order_review .shop_table tr.order-total td, 
+	html .cmsmasters_color_scheme_footer #order_review .shop_table tr.order-total th, 
+	html .cmsmasters_color_scheme_footer .woocommerce-view-order .order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_footer .woocommerce-view-order .order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_footer .order_details li span:last-child, 
+	html .cmsmasters_color_scheme_footer .customer_details tr:last-child td, 
+	html .cmsmasters_color_scheme_footer .customer_details tr:last-child th, 
+	html .cmsmasters_color_scheme_footer .woocommerce-order-received .woocommerce .shop_table.order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_footer .woocommerce-order-received .woocommerce .shop_table.order_details tfoot tr:last-child th {
+		background-color:#2f2c2c;
+	}
+	/* Finish Alternate Background Color */
+
+
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_footer .comment-form-rating .stars > span, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_star_rating .cmsmasters_star {
+		color:#353232;
+	}
+
+	html .cmsmasters_color_scheme_footer .widget_price_filter .price_slider_wrapper .price_slider {
+		background-color:#353232;
+	}
+
+	html .cmsmasters_color_scheme_footer .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .cmsmasters_woo_tabs .comment-text .meta, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo input[type=radio] + label:before, 
+	html .cmsmasters_color_scheme_footer #shipping_method input[type=checkbox] + label:before, 
+	html .cmsmasters_color_scheme_footer #ship-to-different-address input[type=checkbox] + label:before, 
+	html .cmsmasters_color_scheme_footer .payment_methods input[type=checkbox] + label:before,  
+	html .cmsmasters_color_scheme_footer .cart_totals input[type=radio] + label:before, 
+	html .cmsmasters_color_scheme_footer .cart_totals table tr.order-total td, 
+	html .cmsmasters_color_scheme_footer .cart_totals table tr.order-total th, 
+	html .cmsmasters_color_scheme_footer .shop_table td,
+	html .cmsmasters_color_scheme_footer .shop_table th,
+	html .cmsmasters_color_scheme_footer .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-drop-above .select2-choice {
+		border-color:#353232;
+	}
+
+	@media only screen and (max-width: 767px) {
+		html .cmsmasters_color_scheme_footer .shop_table.cart .cart_item {
+			border-color:#353232;
+		}
+	}
+
+	/* Finish Borders Color */
+
+/***************** Finish Footer WooCommerce Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 1 WooCommerce Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_first .widget ul.product_list_widget li .widget_product_info del .amount, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .cmsmasters_product_left_column .product_meta > span .sku, 
+	html .cmsmasters_color_scheme_first .cart_totals .shipping #shipping_method .amount, 
+	html .cmsmasters_color_scheme_first .shop_table .shipping #shipping_method .amount, 
+	html .cmsmasters_color_scheme_first #ship-to-different-address, 
+	html .cmsmasters_color_scheme_first .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-above.select2-drop-active {
+		color:#ffffff;
+	}
+
+	html .cmsmasters_color_scheme_first .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_first .shop_table td.product-remove .remove {
+		background-color:#ffffff;
+	}
+
+	/* Finish Main Content Font Color */
+
+
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .posted_in > a:hover, 
+	html .cmsmasters_color_scheme_first .required, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product_cat > a:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_star_rating .cmsmasters_star_color_wrap .cmsmasters_star, 
+	html .cmsmasters_color_scheme_first .woocommerce-info a:not(.button):hover, 
+	html .cmsmasters_color_scheme_first .woocommerce-message a:not(.button):hover, 
+	html .cmsmasters_color_scheme_first .woocommerce-error a:not(.button):hover, 
+	html .cmsmasters_color_scheme_first .comment-form-rating .stars > span a:hover, 
+	html .cmsmasters_color_scheme_first .comment-form-rating .stars > span a.active {
+		color:rgba(255,255,255,0.4);
+	}
+
+	html .cmsmasters_color_scheme_first .widget_shopping_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_first .widget_product_categories .product-categories .cat-item:hover, 
+	html .cmsmasters_color_scheme_first .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-range, 
+	html .cmsmasters_color_scheme_first .cmsmasters_woo input[type=radio] + label:after, 
+	html .cmsmasters_color_scheme_first #shipping_method input[type=checkbox] + label:after, 
+	html .cmsmasters_color_scheme_first #ship-to-different-address input[type=checkbox] + label:after, 
+	html .cmsmasters_color_scheme_first .payment_methods input[type=checkbox] + label:after,  
+	html .cmsmasters_color_scheme_first .cart_totals input[type=radio] + label:after, 
+	html .cmsmasters_color_scheme_first .shipping-calculator-button:before, 
+	html .cmsmasters_color_scheme_first .woocommerce-remove-coupon:before, 
+	html .cmsmasters_color_scheme_first .cmsmasters_woo .button, 
+	html .cmsmasters_color_scheme_first .shop_table td.product-remove .remove:hover, 
+	html .cmsmasters_color_scheme_first .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a, 
+	html .cmsmasters_color_scheme_first .out-of-stock, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_first .shop_table thead tr, 
+	html .cmsmasters_color_scheme_first .order_details li span:first-child, 
+	html .cmsmasters_color_scheme_first .customer_details tr:first-child td, 
+	html .cmsmasters_color_scheme_first .customer_details tr:first-child th {
+		background-color:rgba(255,255,255,0.4);
+	}
+
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-above.select2-drop-active {
+		border-color:rgba(255,255,255,0.4);
+	}
+	/* Finish Primary Color */
+
+
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .cmsmasters_woo_tabs .cmsmasters_tabs_list li a,  
+	html .cmsmasters_color_scheme_first .woocommerce-info a, 
+	html .cmsmasters_color_scheme_first .woocommerce-message a, 
+	html .cmsmasters_color_scheme_first .woocommerce-error a, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product_cat > a {
+		color:#ce4e45;
+	}
+
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_first .onsale {
+		background-color:#ce4e45;
+	}
+	/* Finish Secondary Color */
+
+
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_first .widget ul.product_list_widget li a:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .posted_in > a, 
+	html .cmsmasters_color_scheme_first .shop_table td a:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_products .product.product-category a:hover > h3, 
+	html .cmsmasters_color_scheme_first .cmsmasters_products .product.product-category a:hover > h3 > mark, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product_title a:hover, 
+	html .cmsmasters_color_scheme_first .widget_shopping_cart .widget_shopping_cart_content .cart_list li > a:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li	> a:hover {
+		color:#f3c14b;
+	}
+
+	html .cmsmasters_color_scheme_first .widget_shopping_cart .widget_shopping_cart_content .buttons .button:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_woo .button:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a:hover {
+		background-color:#f3c14b;
+	}
+	/* Finish Highlight Color */
+
+
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_first .widget ul.product_list_widget li .reviewer, 
+	html .cmsmasters_color_scheme_first .widget ul.product_list_widget li a, 
+	html .cmsmasters_color_scheme_first .widget ul.product_list_widget li .widget_product_info .amount, 
+	html .cmsmasters_color_scheme_first .widget ul.product_list_widget li a, 
+	html .cmsmasters_color_scheme_first .widget_product_categories .product-categories .cat-item > a, 
+	html .cmsmasters_color_scheme_first .widget_product_categories .product-categories .cat-item, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .single_variation_wrap .single_variation .price ins .amount, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .single_variation_wrap .single_variation .price > .amount, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .product_info_top .price > .amount, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .cmsmasters_woo_tabs #reviews .comment-respond label, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .cmsmasters_woo_tabs .comment_container .comment-text .meta time, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .cmsmasters_woo_tabs .shop_attributes, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .product_meta, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .product_info_top .price ins, 
+	html .cmsmasters_color_scheme_first .woocommerce .shop_table, 
+	html .cmsmasters_color_scheme_first .woocommerce-view-order .order_details td:first-child, 
+	html .cmsmasters_color_scheme_first .woocommerce-view-order .order_details th:first-child, 
+	html .cmsmasters_color_scheme_first .woocommerce .myaccount_user strong, 
+	html .cmsmasters_color_scheme_first .customer_details, 
+	html .cmsmasters_color_scheme_first .woocommerce-order-received .woocommerce .shop_table.order_details, 
+	html .cmsmasters_color_scheme_first .order_details li span:last-child, 
+	html .cmsmasters_color_scheme_first .customer_details tr:last-child td, 
+	html .cmsmasters_color_scheme_first .customer_details tr:last-child th, 
+	html .cmsmasters_color_scheme_first #order_review .shop_table tr.order-total .amount, 
+	html .cmsmasters_color_scheme_first #order_review .shop_table tbody tr td:first-child, 
+	html .cmsmasters_color_scheme_first #order_review .shop_table tbody tr th:first-child, 
+	html .cmsmasters_color_scheme_first #order_review .shop_table tfoot tr td:first-child, 
+	html .cmsmasters_color_scheme_first #order_review .shop_table tfoot tr th:first-child, 
+	html .cmsmasters_color_scheme_first .woocommerce-billing-fields, 
+	html .cmsmasters_color_scheme_first .woocommerce-shipping-fields, 
+	html .cmsmasters_color_scheme_first .shipping-calculator-button:hover, 
+	html .cmsmasters_color_scheme_first .shipping-calculator-button, 
+	html .cmsmasters_color_scheme_first .cmsmasters_woo a.woocommerce-remove-coupon:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_woo a.woocommerce-remove-coupon, 
+	html .cmsmasters_color_scheme_first .cart_totals .amount,  
+	html .cmsmasters_color_scheme_first .cart_totals th, 
+	html .cmsmasters_color_scheme_first .shop_table td .amount, 
+	html .cmsmasters_color_scheme_first .shop_table td a, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product_info .price > .amount, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product_info .price ins > .amount, 
+	html .cmsmasters_color_scheme_first .woocommerce-info, 
+	html .cmsmasters_color_scheme_first .woocommerce-message, 
+	html .cmsmasters_color_scheme_first .woocommerce-error, 
+	html .cmsmasters_color_scheme_first .cmsmasters_products .product.product-category a h3 > mark, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li	> a, 
+	html .cmsmasters_color_scheme_first .widget_shopping_cart .widget_shopping_cart_content .cart_list li > a, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .total,
+	html .cmsmasters_color_scheme_first .widget_shopping_cart .widget_shopping_cart_content .total, 	
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li .quantity, 
+	html .cmsmasters_color_scheme_first .widget_shopping_cart .widget_shopping_cart_content .cart_list li .quantity, 
+	html .cmsmasters_color_scheme_first .cmsmasters_added_product_info .cmsmasters_added_product_info_text {
+		color:#3d3d3d;
+	}
+
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content {
+		-webkit-box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+		-moz-box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+		box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+	}
+	/* Finish Headings Color */
+
+
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_first .widget_shopping_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_first .widget_product_categories .product-categories .cat-item:hover a, 
+	html .cmsmasters_color_scheme_first .my_account_orders .order-actions a:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_woo .button, 
+	html .cmsmasters_color_scheme_first .shop_table thead tr th, 
+	html .cmsmasters_color_scheme_first .shop_table thead tr td, 
+	html .cmsmasters_color_scheme_first .woocommerce-view-order .order_details thead th:first-child, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a > span, 
+	html .cmsmasters_color_scheme_first .onsale, 
+	html .cmsmasters_color_scheme_first .out-of-stock, 
+	html .cmsmasters_color_scheme_first .shop_table td.product-remove .remove:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_first .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_first .shop_table td.product-remove .remove, 
+	html .cmsmasters_color_scheme_first .order_details li span:first-child, 
+	html .cmsmasters_color_scheme_first .customer_details tr:first-child td, 
+	html .cmsmasters_color_scheme_first .customer_details tr:first-child th {
+		color:#ffffff;
+	}
+
+	html .cmsmasters_color_scheme_first .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle, 
+	html .cmsmasters_color_scheme_first .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product_img_wrap:after {
+		background-color:#ffffff;
+	}
+	/* Finish Main Background Color */
+
+
+	/* Start Alternate Background Color */ 
+	html .cmsmasters_color_scheme_first .widget_product_categories .product-categories .cat-item, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .cmsmasters_woo_tabs .cmsmasters_tabs_list,  
+	html .cmsmasters_color_scheme_first .cmsmasters_woo input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_first .cmsmasters_woo select, 
+	html .cmsmasters_color_scheme_first .cmsmasters_woo textarea, 
+	html .cmsmasters_color_scheme_first .woocommerce-info, 
+	html .cmsmasters_color_scheme_first .woocommerce-message, 
+	html .cmsmasters_color_scheme_first .woocommerce-error, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-above.select2-drop-active, 
+	html .cmsmasters_color_scheme_first .woocommerce-ordering select, 
+	html .cmsmasters_color_scheme_first .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_first #order_review .shop_table tr.order-total td, 
+	html .cmsmasters_color_scheme_first #order_review .shop_table tr.order-total th, 
+	html .cmsmasters_color_scheme_first .woocommerce-view-order .order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_first .woocommerce-view-order .order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_first .order_details li span:last-child, 
+	html .cmsmasters_color_scheme_first .customer_details tr:last-child td, 
+	html .cmsmasters_color_scheme_first .customer_details tr:last-child th, 
+	html .cmsmasters_color_scheme_first .woocommerce-order-received .woocommerce .shop_table.order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_first .woocommerce-order-received .woocommerce .shop_table.order_details tfoot tr:last-child th {
+		background-color:rgba(249,249,249,0);
+	}
+	/* Finish Alternate Background Color */
+
+
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_first .comment-form-rating .stars > span, 
+	html .cmsmasters_color_scheme_first .cmsmasters_star_rating .cmsmasters_star {
+		color:rgba(53,50,50,0);
+	}
+
+	html .cmsmasters_color_scheme_first .widget_price_filter .price_slider_wrapper .price_slider {
+		background-color:rgba(53,50,50,0);
+	}
+
+	html .cmsmasters_color_scheme_first .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .cmsmasters_woo_tabs .comment-text .meta, 
+	html .cmsmasters_color_scheme_first .cmsmasters_woo input[type=radio] + label:before, 
+	html .cmsmasters_color_scheme_first #shipping_method input[type=checkbox] + label:before, 
+	html .cmsmasters_color_scheme_first #ship-to-different-address input[type=checkbox] + label:before, 
+	html .cmsmasters_color_scheme_first .payment_methods input[type=checkbox] + label:before,  
+	html .cmsmasters_color_scheme_first .cart_totals input[type=radio] + label:before, 
+	html .cmsmasters_color_scheme_first .cart_totals table tr.order-total td, 
+	html .cmsmasters_color_scheme_first .cart_totals table tr.order-total th, 
+	html .cmsmasters_color_scheme_first .shop_table td,
+	html .cmsmasters_color_scheme_first .shop_table th,
+	html .cmsmasters_color_scheme_first .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-drop-above .select2-choice {
+		border-color:rgba(53,50,50,0);
+	}
+
+	@media only screen and (max-width: 767px) {
+		html .cmsmasters_color_scheme_first .shop_table.cart .cart_item {
+			border-color:rgba(53,50,50,0);
+		}
+	}
+
+	/* Finish Borders Color */
+
+/***************** Finish Custom 1 WooCommerce Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 2 WooCommerce Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_second .widget ul.product_list_widget li .widget_product_info del .amount, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .cmsmasters_product_left_column .product_meta > span .sku, 
+	html .cmsmasters_color_scheme_second .cart_totals .shipping #shipping_method .amount, 
+	html .cmsmasters_color_scheme_second .shop_table .shipping #shipping_method .amount, 
+	html .cmsmasters_color_scheme_second #ship-to-different-address, 
+	html .cmsmasters_color_scheme_second .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-above.select2-drop-active {
+		color:rgba(255,255,255,0.5);
+	}
+
+	html .cmsmasters_color_scheme_second .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_second .shop_table td.product-remove .remove {
+		background-color:rgba(255,255,255,0.5);
+	}
+
+	/* Finish Main Content Font Color */
+
+
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .posted_in > a:hover, 
+	html .cmsmasters_color_scheme_second .required, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product_cat > a:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_star_rating .cmsmasters_star_color_wrap .cmsmasters_star, 
+	html .cmsmasters_color_scheme_second .woocommerce-info a:not(.button):hover, 
+	html .cmsmasters_color_scheme_second .woocommerce-message a:not(.button):hover, 
+	html .cmsmasters_color_scheme_second .woocommerce-error a:not(.button):hover, 
+	html .cmsmasters_color_scheme_second .comment-form-rating .stars > span a:hover, 
+	html .cmsmasters_color_scheme_second .comment-form-rating .stars > span a.active {
+		color:#f3c14b;
+	}
+
+	html .cmsmasters_color_scheme_second .widget_shopping_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_second .widget_product_categories .product-categories .cat-item:hover, 
+	html .cmsmasters_color_scheme_second .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-range, 
+	html .cmsmasters_color_scheme_second .cmsmasters_woo input[type=radio] + label:after, 
+	html .cmsmasters_color_scheme_second #shipping_method input[type=checkbox] + label:after, 
+	html .cmsmasters_color_scheme_second #ship-to-different-address input[type=checkbox] + label:after, 
+	html .cmsmasters_color_scheme_second .payment_methods input[type=checkbox] + label:after,  
+	html .cmsmasters_color_scheme_second .cart_totals input[type=radio] + label:after, 
+	html .cmsmasters_color_scheme_second .shipping-calculator-button:before, 
+	html .cmsmasters_color_scheme_second .woocommerce-remove-coupon:before, 
+	html .cmsmasters_color_scheme_second .cmsmasters_woo .button, 
+	html .cmsmasters_color_scheme_second .shop_table td.product-remove .remove:hover, 
+	html .cmsmasters_color_scheme_second .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a, 
+	html .cmsmasters_color_scheme_second .out-of-stock, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_second .shop_table thead tr, 
+	html .cmsmasters_color_scheme_second .order_details li span:first-child, 
+	html .cmsmasters_color_scheme_second .customer_details tr:first-child td, 
+	html .cmsmasters_color_scheme_second .customer_details tr:first-child th {
+		background-color:#f3c14b;
+	}
+
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-above.select2-drop-active {
+		border-color:#f3c14b;
+	}
+	/* Finish Primary Color */
+
+
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .cmsmasters_woo_tabs .cmsmasters_tabs_list li a,  
+	html .cmsmasters_color_scheme_second .woocommerce-info a, 
+	html .cmsmasters_color_scheme_second .woocommerce-message a, 
+	html .cmsmasters_color_scheme_second .woocommerce-error a, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product_cat > a {
+		color:#ce4e45;
+	}
+
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_second .onsale {
+		background-color:#ce4e45;
+	}
+	/* Finish Secondary Color */
+
+
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_second .widget ul.product_list_widget li a:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .posted_in > a, 
+	html .cmsmasters_color_scheme_second .shop_table td a:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_products .product.product-category a:hover > h3, 
+	html .cmsmasters_color_scheme_second .cmsmasters_products .product.product-category a:hover > h3 > mark, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product_title a:hover, 
+	html .cmsmasters_color_scheme_second .widget_shopping_cart .widget_shopping_cart_content .cart_list li > a:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li	> a:hover {
+		color:#ce4e45;
+	}
+
+	html .cmsmasters_color_scheme_second .widget_shopping_cart .widget_shopping_cart_content .buttons .button:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_woo .button:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a:hover {
+		background-color:#ce4e45;
+	}
+	/* Finish Highlight Color */
+
+
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_second .widget ul.product_list_widget li .reviewer, 
+	html .cmsmasters_color_scheme_second .widget ul.product_list_widget li a, 
+	html .cmsmasters_color_scheme_second .widget ul.product_list_widget li .widget_product_info .amount, 
+	html .cmsmasters_color_scheme_second .widget ul.product_list_widget li a, 
+	html .cmsmasters_color_scheme_second .widget_product_categories .product-categories .cat-item > a, 
+	html .cmsmasters_color_scheme_second .widget_product_categories .product-categories .cat-item, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .single_variation_wrap .single_variation .price ins .amount, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .single_variation_wrap .single_variation .price > .amount, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .product_info_top .price > .amount, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .cmsmasters_woo_tabs #reviews .comment-respond label, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .cmsmasters_woo_tabs .comment_container .comment-text .meta time, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .cmsmasters_woo_tabs .shop_attributes, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .product_meta, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .product_info_top .price ins, 
+	html .cmsmasters_color_scheme_second .woocommerce .shop_table, 
+	html .cmsmasters_color_scheme_second .woocommerce-view-order .order_details td:first-child, 
+	html .cmsmasters_color_scheme_second .woocommerce-view-order .order_details th:first-child, 
+	html .cmsmasters_color_scheme_second .woocommerce .myaccount_user strong, 
+	html .cmsmasters_color_scheme_second .customer_details, 
+	html .cmsmasters_color_scheme_second .woocommerce-order-received .woocommerce .shop_table.order_details, 
+	html .cmsmasters_color_scheme_second .order_details li span:last-child, 
+	html .cmsmasters_color_scheme_second .customer_details tr:last-child td, 
+	html .cmsmasters_color_scheme_second .customer_details tr:last-child th, 
+	html .cmsmasters_color_scheme_second #order_review .shop_table tr.order-total .amount, 
+	html .cmsmasters_color_scheme_second #order_review .shop_table tbody tr td:first-child, 
+	html .cmsmasters_color_scheme_second #order_review .shop_table tbody tr th:first-child, 
+	html .cmsmasters_color_scheme_second #order_review .shop_table tfoot tr td:first-child, 
+	html .cmsmasters_color_scheme_second #order_review .shop_table tfoot tr th:first-child, 
+	html .cmsmasters_color_scheme_second .woocommerce-billing-fields, 
+	html .cmsmasters_color_scheme_second .woocommerce-shipping-fields, 
+	html .cmsmasters_color_scheme_second .shipping-calculator-button:hover, 
+	html .cmsmasters_color_scheme_second .shipping-calculator-button, 
+	html .cmsmasters_color_scheme_second .cmsmasters_woo a.woocommerce-remove-coupon:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_woo a.woocommerce-remove-coupon, 
+	html .cmsmasters_color_scheme_second .cart_totals .amount,  
+	html .cmsmasters_color_scheme_second .cart_totals th, 
+	html .cmsmasters_color_scheme_second .shop_table td .amount, 
+	html .cmsmasters_color_scheme_second .shop_table td a, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product_info .price > .amount, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product_info .price ins > .amount, 
+	html .cmsmasters_color_scheme_second .woocommerce-info, 
+	html .cmsmasters_color_scheme_second .woocommerce-message, 
+	html .cmsmasters_color_scheme_second .woocommerce-error, 
+	html .cmsmasters_color_scheme_second .cmsmasters_products .product.product-category a h3 > mark, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li	> a, 
+	html .cmsmasters_color_scheme_second .widget_shopping_cart .widget_shopping_cart_content .cart_list li > a, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .total,
+	html .cmsmasters_color_scheme_second .widget_shopping_cart .widget_shopping_cart_content .total, 	
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li .quantity, 
+	html .cmsmasters_color_scheme_second .widget_shopping_cart .widget_shopping_cart_content .cart_list li .quantity, 
+	html .cmsmasters_color_scheme_second .cmsmasters_added_product_info .cmsmasters_added_product_info_text {
+		color:#ffffff;
+	}
+
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content {
+		-webkit-box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+		-moz-box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+		box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+	}
+	/* Finish Headings Color */
+
+
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_second .widget_shopping_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_second .widget_product_categories .product-categories .cat-item:hover a, 
+	html .cmsmasters_color_scheme_second .my_account_orders .order-actions a:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_woo .button, 
+	html .cmsmasters_color_scheme_second .shop_table thead tr th, 
+	html .cmsmasters_color_scheme_second .shop_table thead tr td, 
+	html .cmsmasters_color_scheme_second .woocommerce-view-order .order_details thead th:first-child, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a > span, 
+	html .cmsmasters_color_scheme_second .onsale, 
+	html .cmsmasters_color_scheme_second .out-of-stock, 
+	html .cmsmasters_color_scheme_second .shop_table td.product-remove .remove:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_second .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_second .shop_table td.product-remove .remove, 
+	html .cmsmasters_color_scheme_second .order_details li span:first-child, 
+	html .cmsmasters_color_scheme_second .customer_details tr:first-child td, 
+	html .cmsmasters_color_scheme_second .customer_details tr:first-child th {
+		color:#ffffff;
+	}
+
+	html .cmsmasters_color_scheme_second .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle, 
+	html .cmsmasters_color_scheme_second .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product_img_wrap:after {
+		background-color:#ffffff;
+	}
+	/* Finish Main Background Color */
+
+
+	/* Start Alternate Background Color */ 
+	html .cmsmasters_color_scheme_second .widget_product_categories .product-categories .cat-item, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .cmsmasters_woo_tabs .cmsmasters_tabs_list,  
+	html .cmsmasters_color_scheme_second .cmsmasters_woo input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_second .cmsmasters_woo select, 
+	html .cmsmasters_color_scheme_second .cmsmasters_woo textarea, 
+	html .cmsmasters_color_scheme_second .woocommerce-info, 
+	html .cmsmasters_color_scheme_second .woocommerce-message, 
+	html .cmsmasters_color_scheme_second .woocommerce-error, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-above.select2-drop-active, 
+	html .cmsmasters_color_scheme_second .woocommerce-ordering select, 
+	html .cmsmasters_color_scheme_second .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_second #order_review .shop_table tr.order-total td, 
+	html .cmsmasters_color_scheme_second #order_review .shop_table tr.order-total th, 
+	html .cmsmasters_color_scheme_second .woocommerce-view-order .order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_second .woocommerce-view-order .order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_second .order_details li span:last-child, 
+	html .cmsmasters_color_scheme_second .customer_details tr:last-child td, 
+	html .cmsmasters_color_scheme_second .customer_details tr:last-child th, 
+	html .cmsmasters_color_scheme_second .woocommerce-order-received .woocommerce .shop_table.order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_second .woocommerce-order-received .woocommerce .shop_table.order_details tfoot tr:last-child th {
+		background-color:#f9f9f9;
+	}
+	/* Finish Alternate Background Color */
+
+
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_second .comment-form-rating .stars > span, 
+	html .cmsmasters_color_scheme_second .cmsmasters_star_rating .cmsmasters_star {
+		color:#e9e9e9;
+	}
+
+	html .cmsmasters_color_scheme_second .widget_price_filter .price_slider_wrapper .price_slider {
+		background-color:#e9e9e9;
+	}
+
+	html .cmsmasters_color_scheme_second .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .cmsmasters_woo_tabs .comment-text .meta, 
+	html .cmsmasters_color_scheme_second .cmsmasters_woo input[type=radio] + label:before, 
+	html .cmsmasters_color_scheme_second #shipping_method input[type=checkbox] + label:before, 
+	html .cmsmasters_color_scheme_second #ship-to-different-address input[type=checkbox] + label:before, 
+	html .cmsmasters_color_scheme_second .payment_methods input[type=checkbox] + label:before,  
+	html .cmsmasters_color_scheme_second .cart_totals input[type=radio] + label:before, 
+	html .cmsmasters_color_scheme_second .cart_totals table tr.order-total td, 
+	html .cmsmasters_color_scheme_second .cart_totals table tr.order-total th, 
+	html .cmsmasters_color_scheme_second .shop_table td,
+	html .cmsmasters_color_scheme_second .shop_table th,
+	html .cmsmasters_color_scheme_second .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-drop-above .select2-choice {
+		border-color:#e9e9e9;
+	}
+
+	@media only screen and (max-width: 767px) {
+		html .cmsmasters_color_scheme_second .shop_table.cart .cart_item {
+			border-color:#e9e9e9;
+		}
+	}
+
+	/* Finish Borders Color */
+
+/***************** Finish Custom 2 WooCommerce Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 3 WooCommerce Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_third .widget ul.product_list_widget li .widget_product_info del .amount, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .cmsmasters_product_left_column .product_meta > span .sku, 
+	html .cmsmasters_color_scheme_third .cart_totals .shipping #shipping_method .amount, 
+	html .cmsmasters_color_scheme_third .shop_table .shipping #shipping_method .amount, 
+	html .cmsmasters_color_scheme_third #ship-to-different-address, 
+	html .cmsmasters_color_scheme_third .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-above.select2-drop-active {
+		color:#e9e9e9;
+	}
+
+	html .cmsmasters_color_scheme_third .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_third .shop_table td.product-remove .remove {
+		background-color:#e9e9e9;
+	}
+
+	/* Finish Main Content Font Color */
+
+
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .posted_in > a:hover, 
+	html .cmsmasters_color_scheme_third .required, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product_cat > a:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_star_rating .cmsmasters_star_color_wrap .cmsmasters_star, 
+	html .cmsmasters_color_scheme_third .woocommerce-info a:not(.button):hover, 
+	html .cmsmasters_color_scheme_third .woocommerce-message a:not(.button):hover, 
+	html .cmsmasters_color_scheme_third .woocommerce-error a:not(.button):hover, 
+	html .cmsmasters_color_scheme_third .comment-form-rating .stars > span a:hover, 
+	html .cmsmasters_color_scheme_third .comment-form-rating .stars > span a.active {
+		color:#e9e9e9;
+	}
+
+	html .cmsmasters_color_scheme_third .widget_shopping_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_third .widget_product_categories .product-categories .cat-item:hover, 
+	html .cmsmasters_color_scheme_third .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-range, 
+	html .cmsmasters_color_scheme_third .cmsmasters_woo input[type=radio] + label:after, 
+	html .cmsmasters_color_scheme_third #shipping_method input[type=checkbox] + label:after, 
+	html .cmsmasters_color_scheme_third #ship-to-different-address input[type=checkbox] + label:after, 
+	html .cmsmasters_color_scheme_third .payment_methods input[type=checkbox] + label:after,  
+	html .cmsmasters_color_scheme_third .cart_totals input[type=radio] + label:after, 
+	html .cmsmasters_color_scheme_third .shipping-calculator-button:before, 
+	html .cmsmasters_color_scheme_third .woocommerce-remove-coupon:before, 
+	html .cmsmasters_color_scheme_third .cmsmasters_woo .button, 
+	html .cmsmasters_color_scheme_third .shop_table td.product-remove .remove:hover, 
+	html .cmsmasters_color_scheme_third .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a, 
+	html .cmsmasters_color_scheme_third .out-of-stock, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_third .shop_table thead tr, 
+	html .cmsmasters_color_scheme_third .order_details li span:first-child, 
+	html .cmsmasters_color_scheme_third .customer_details tr:first-child td, 
+	html .cmsmasters_color_scheme_third .customer_details tr:first-child th {
+		background-color:#e9e9e9;
+	}
+
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-above.select2-drop-active {
+		border-color:#e9e9e9;
+	}
+	/* Finish Primary Color */
+
+
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .cmsmasters_woo_tabs .cmsmasters_tabs_list li a,  
+	html .cmsmasters_color_scheme_third .woocommerce-info a, 
+	html .cmsmasters_color_scheme_third .woocommerce-message a, 
+	html .cmsmasters_color_scheme_third .woocommerce-error a, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product_cat > a {
+		color:#3d3d3d;
+	}
+
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_third .onsale {
+		background-color:#3d3d3d;
+	}
+	/* Finish Secondary Color */
+
+
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_third .widget ul.product_list_widget li a:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .posted_in > a, 
+	html .cmsmasters_color_scheme_third .shop_table td a:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_products .product.product-category a:hover > h3, 
+	html .cmsmasters_color_scheme_third .cmsmasters_products .product.product-category a:hover > h3 > mark, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product_title a:hover, 
+	html .cmsmasters_color_scheme_third .widget_shopping_cart .widget_shopping_cart_content .cart_list li > a:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li	> a:hover {
+		color:#f3c14b;
+	}
+
+	html .cmsmasters_color_scheme_third .widget_shopping_cart .widget_shopping_cart_content .buttons .button:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_woo .button:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a:hover {
+		background-color:#f3c14b;
+	}
+	/* Finish Highlight Color */
+
+
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_third .widget ul.product_list_widget li .reviewer, 
+	html .cmsmasters_color_scheme_third .widget ul.product_list_widget li a, 
+	html .cmsmasters_color_scheme_third .widget ul.product_list_widget li .widget_product_info .amount, 
+	html .cmsmasters_color_scheme_third .widget ul.product_list_widget li a, 
+	html .cmsmasters_color_scheme_third .widget_product_categories .product-categories .cat-item > a, 
+	html .cmsmasters_color_scheme_third .widget_product_categories .product-categories .cat-item, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .single_variation_wrap .single_variation .price ins .amount, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .single_variation_wrap .single_variation .price > .amount, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .product_info_top .price > .amount, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .cmsmasters_woo_tabs #reviews .comment-respond label, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .cmsmasters_woo_tabs .comment_container .comment-text .meta time, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .cmsmasters_woo_tabs .shop_attributes, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .product_meta, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .product_info_top .price ins, 
+	html .cmsmasters_color_scheme_third .woocommerce .shop_table, 
+	html .cmsmasters_color_scheme_third .woocommerce-view-order .order_details td:first-child, 
+	html .cmsmasters_color_scheme_third .woocommerce-view-order .order_details th:first-child, 
+	html .cmsmasters_color_scheme_third .woocommerce .myaccount_user strong, 
+	html .cmsmasters_color_scheme_third .customer_details, 
+	html .cmsmasters_color_scheme_third .woocommerce-order-received .woocommerce .shop_table.order_details, 
+	html .cmsmasters_color_scheme_third .order_details li span:last-child, 
+	html .cmsmasters_color_scheme_third .customer_details tr:last-child td, 
+	html .cmsmasters_color_scheme_third .customer_details tr:last-child th, 
+	html .cmsmasters_color_scheme_third #order_review .shop_table tr.order-total .amount, 
+	html .cmsmasters_color_scheme_third #order_review .shop_table tbody tr td:first-child, 
+	html .cmsmasters_color_scheme_third #order_review .shop_table tbody tr th:first-child, 
+	html .cmsmasters_color_scheme_third #order_review .shop_table tfoot tr td:first-child, 
+	html .cmsmasters_color_scheme_third #order_review .shop_table tfoot tr th:first-child, 
+	html .cmsmasters_color_scheme_third .woocommerce-billing-fields, 
+	html .cmsmasters_color_scheme_third .woocommerce-shipping-fields, 
+	html .cmsmasters_color_scheme_third .shipping-calculator-button:hover, 
+	html .cmsmasters_color_scheme_third .shipping-calculator-button, 
+	html .cmsmasters_color_scheme_third .cmsmasters_woo a.woocommerce-remove-coupon:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_woo a.woocommerce-remove-coupon, 
+	html .cmsmasters_color_scheme_third .cart_totals .amount,  
+	html .cmsmasters_color_scheme_third .cart_totals th, 
+	html .cmsmasters_color_scheme_third .shop_table td .amount, 
+	html .cmsmasters_color_scheme_third .shop_table td a, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product_info .price > .amount, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product_info .price ins > .amount, 
+	html .cmsmasters_color_scheme_third .woocommerce-info, 
+	html .cmsmasters_color_scheme_third .woocommerce-message, 
+	html .cmsmasters_color_scheme_third .woocommerce-error, 
+	html .cmsmasters_color_scheme_third .cmsmasters_products .product.product-category a h3 > mark, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li	> a, 
+	html .cmsmasters_color_scheme_third .widget_shopping_cart .widget_shopping_cart_content .cart_list li > a, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .total,
+	html .cmsmasters_color_scheme_third .widget_shopping_cart .widget_shopping_cart_content .total, 	
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li .quantity, 
+	html .cmsmasters_color_scheme_third .widget_shopping_cart .widget_shopping_cart_content .cart_list li .quantity, 
+	html .cmsmasters_color_scheme_third .cmsmasters_added_product_info .cmsmasters_added_product_info_text {
+		color:#ffffff;
+	}
+
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content {
+		-webkit-box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+		-moz-box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+		box-shadow:0px 6px 3px -5px rgba(61, 61, 61, 0.15), 0px 0px 1px 1px rgba(61, 61, 61, 0.05);
+	}
+	/* Finish Headings Color */
+
+
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_third .widget_shopping_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_third .widget_product_categories .product-categories .cat-item:hover a, 
+	html .cmsmasters_color_scheme_third .my_account_orders .order-actions a:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_woo .button, 
+	html .cmsmasters_color_scheme_third .shop_table thead tr th, 
+	html .cmsmasters_color_scheme_third .shop_table thead tr td, 
+	html .cmsmasters_color_scheme_third .woocommerce-view-order .order_details thead th:first-child, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .buttons .button, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product_buttons .cmsmasters_product_buttons_wrap > a > span, 
+	html .cmsmasters_color_scheme_third .onsale, 
+	html .cmsmasters_color_scheme_third .out-of-stock, 
+	html .cmsmasters_color_scheme_third .shop_table td.product-remove .remove:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_third .widget_shopping_cart .widget_shopping_cart_content .cart_list li a.remove, 
+	html .cmsmasters_color_scheme_third .shop_table td.product-remove .remove, 
+	html .cmsmasters_color_scheme_third .order_details li span:first-child, 
+	html .cmsmasters_color_scheme_third .customer_details tr:first-child td, 
+	html .cmsmasters_color_scheme_third .customer_details tr:first-child th {
+		color:#3d3d3d;
+	}
+
+	html .cmsmasters_color_scheme_third .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle, 
+	html .cmsmasters_color_scheme_third .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product_img_wrap:after {
+		background-color:#3d3d3d;
+	}
+	/* Finish Main Background Color */
+
+
+	/* Start Alternate Background Color */ 
+	html .cmsmasters_color_scheme_third .widget_product_categories .product-categories .cat-item, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .cmsmasters_woo_tabs .cmsmasters_tabs_list,  
+	html .cmsmasters_color_scheme_third .cmsmasters_woo input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_third .cmsmasters_woo select, 
+	html .cmsmasters_color_scheme_third .cmsmasters_woo textarea, 
+	html .cmsmasters_color_scheme_third .woocommerce-info, 
+	html .cmsmasters_color_scheme_third .woocommerce-message, 
+	html .cmsmasters_color_scheme_third .woocommerce-error, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-above.select2-drop-active, 
+	html .cmsmasters_color_scheme_third .woocommerce-ordering select, 
+	html .cmsmasters_color_scheme_third .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_third #order_review .shop_table tr.order-total td, 
+	html .cmsmasters_color_scheme_third #order_review .shop_table tr.order-total th, 
+	html .cmsmasters_color_scheme_third .woocommerce-view-order .order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_third .woocommerce-view-order .order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_third .order_details li span:last-child, 
+	html .cmsmasters_color_scheme_third .customer_details tr:last-child td, 
+	html .cmsmasters_color_scheme_third .customer_details tr:last-child th, 
+	html .cmsmasters_color_scheme_third .woocommerce-order-received .woocommerce .shop_table.order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_third .woocommerce-order-received .woocommerce .shop_table.order_details tfoot tr:last-child th {
+		background-color:#3d3d3d;
+	}
+	/* Finish Alternate Background Color */
+
+
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_third .comment-form-rating .stars > span, 
+	html .cmsmasters_color_scheme_third .cmsmasters_star_rating .cmsmasters_star {
+		color:#e9e9e9;
+	}
+
+	html .cmsmasters_color_scheme_third .widget_price_filter .price_slider_wrapper .price_slider {
+		background-color:#e9e9e9;
+	}
+
+	html .cmsmasters_color_scheme_third .widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .cmsmasters_woo_tabs .comment-text .meta, 
+	html .cmsmasters_color_scheme_third .cmsmasters_woo input[type=radio] + label:before, 
+	html .cmsmasters_color_scheme_third #shipping_method input[type=checkbox] + label:before, 
+	html .cmsmasters_color_scheme_third #ship-to-different-address input[type=checkbox] + label:before, 
+	html .cmsmasters_color_scheme_third .payment_methods input[type=checkbox] + label:before,  
+	html .cmsmasters_color_scheme_third .cart_totals input[type=radio] + label:before, 
+	html .cmsmasters_color_scheme_third .cart_totals table tr.order-total td, 
+	html .cmsmasters_color_scheme_third .cart_totals table tr.order-total th, 
+	html .cmsmasters_color_scheme_third .shop_table td,
+	html .cmsmasters_color_scheme_third .shop_table th,
+	html .cmsmasters_color_scheme_third .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-drop-above .select2-choice {
+		border-color:#e9e9e9;
+	}
+
+	@media only screen and (max-width: 767px) {
+		html .cmsmasters_color_scheme_third .shop_table.cart .cart_item {
+			border-color:#e9e9e9;
+		}
+	}
+
+	/* Finish Borders Color */
+
+/***************** Finish Custom 3 WooCommerce Color Scheme Rules ******************/
+
+
+
+/***************** Start Header Color Scheme Rules ******************/
+
+	/* Start Header Content Color */
+	.header_mid {
+		color:#aaaaaa;
+	}
+	/* Finish Header Content Color */
+
+
+	/* Start Header Primary Color */
+	.header_mid a,
+	.header_mid h1 a:hover,
+	.header_mid h2 a:hover,
+	.header_mid h3 a:hover,
+	.header_mid h4 a:hover,
+	.header_mid h5 a:hover,
+	.header_mid h6 a:hover,
+	.header_mid .color_2,
+	.header_mid h1,
+	.header_mid h2,
+	.header_mid h3,
+	.header_mid h4,
+	.header_mid h5,
+	.header_mid h6,
+	.header_mid h1 a,
+	.header_mid h2 a,
+	.header_mid h3 a,
+	.header_mid h4 a,
+	.header_mid h5 a,
+	.header_mid h6 a,
+	.header_mid #navigation > li > a,
+	.header_mid #navigation > li > a:hover,
+	.header_mid #navigation > li.current-menu-item > a,
+	.header_mid #navigation > li.current_page_item > a,
+	.header_mid #navigation > li.current-menu-ancestor > a,
+	.header_mid #navigation > li.menu-item-highlight > a, 
+	.header_mid_inner .social_wrap a:hover, 
+	.header_mid_inner .slogan_wrap_inner .slogan_wrap_text .cmsmasters_meta_block .cmsmasters_meta_block_cell:before {
+		color:#3e3e3e;
+	}
+
+	a.responsive_nav, 
+	.header_mid .button:hover,
+	.header_mid #navigation > li > a[data-tag]:before {
+		background-color:#3e3e3e;
+	}
+
+	.header_mid input[type=text]:focus,
+	.header_mid input[type=email]:focus,
+	.header_mid input[type=password]:focus,
+	.header_mid input[type=search]:focus,
+	.header_mid textarea:focus {
+		border-color:#3e3e3e;
+	}
+	/* Finish Header Primary Color */
+
+
+	/* Start Header Secondary Color */
+	.header_mid_inner .cmsmasters-resp-nav-toggle.cmsmasters-icon-angle-up, 
+	.search_button_open button, 
+	.header_mid_inner .social_wrap a {
+		color:#f3c14b;	
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_mid #navigation > li > a,
+		.header_mid #navigation > li > a:hover,
+		.header_mid #navigation > li.current-menu-item > a,
+		.header_mid #navigation > li.current_page_item > a,
+		.header_mid #navigation > li.current-menu-ancestor > a,
+		.header_mid #navigation > li.menu-item-highlight > a {
+			color:#f3c14b;	
+		}
+	}
+
+	@media only screen and (max-width: 950px) {
+		.header_mid_inner.cmsmasters_search_single .search_wrap .search_bar_wrap form {
+			color:#f3c14b;	
+			border-color:#f3c14b;	
+		}
+	}
+
+	@media only screen and (max-width: 950px) {
+		.header_mid_inner .search_wrap .search_bar_wrap form {
+			color:#f3c14b;	
+			border-color:#f3c14b;	
+		}
+	}
+	/* Finish Header Secondary Color */
+
+
+	/* Start Header Rollover Color */
+	.header_mid a:hover,
+	.header_mid #navigation > li.menu-item-highlight > a > span:first-child, 
+	.header_mid_inner .social_wrap a:hover, 
+	p.search_button_open button:hover, 
+	.search_button_open button:hover {
+		color:#ce4e45;
+	}
+
+	a.responsive_nav:hover, 
+	a.responsive_nav.active, 
+	.header_mid .button, 
+	.header_mid #navigation > li.menu-item-highlight > a[data-tag]:before, 
+	.header_mid #navigation ul li > a[data-tag]:before {
+		background-color:#ce4e45;
+	}
+
+	.header_mid_inner .search_wrap.search_opened.cmsmasters_header_search_focus .search_bar_wrap form {
+		border-color:#ce4e45;
+	}
+	/* Finish Header Rollover Color */
+
+
+	/* Start Header Subtitle Color */
+	.header_mid #navigation > li > a > span > span.nav_subtitle {
+		color:#b3b3b3;
+	}
+	/* Finish Header Subtitle Color */
+
+
+	/* Start Header Background Color */
+	.header_mid .button,
+	.header_mid .button:hover,
+	.header_mid #navigation > li > a[data-tag]:before {
+		color:#f9f9f9;
+	}
+
+	.header_mid input[type=text]:focus,
+	.header_mid input[type=number]:focus,
+	.header_mid input[type=email]:focus,
+	.header_mid input[type=password]:focus,
+	.header_mid input[type=search]:focus,
+	.header_mid textarea:focus,
+	.header_mid_outer {
+		background-color:#f9f9f9;
+	}
+
+	/* Finish Header Background Color */
+
+
+	/* Start Header Background Color on Scroll */
+	.header_mid_scroll .header_mid_outer {
+		background-color:#f9f9f9;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_mid_outer {
+			background-color:#f9f9f9;
+		}
+	}
+
+	/* Finish Header Background Color on Scroll */
+
+
+	/* Start Header Rollover Background Color */
+	.header_mid .header_hover_bg {
+		background-color:#f9f9f9;
+	}
+	/* Finish Header Rollover Background Color */
+
+
+	/* Start Header Borders Color */
+	.header_mid input[type=text],
+	.header_mid input[type=number],
+	.header_mid input[type=email],
+	.header_mid input[type=password],
+	.header_mid input[type=search],
+	.header_mid input[type=submit],
+	.header_mid textarea,
+	.header_mid select,
+	.header_mid option, 
+	.header_mid_inner .search_wrap.search_opened .search_bar_wrap form {
+		border-color:#f3c14b;
+	}
+
+	.header_mid hr,
+	.header_mid .cmsmasters_divider {
+		border-bottom-color:#f3c14b;
+	}
+
+	#navigation li.cmsmasters_mov_bar span {
+		background:#f3c14b;
+	}
+	/* Finish Header Borders Color */
+
+
+	/* Start Header Dropdown Link Color */
+	a.responsive_nav:hover, 
+	a.responsive_nav, 
+	.header_mid #navigation ul li a, 
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li > a, 
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li > a[data-tag]:before {
+		color:#ffffff;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_mid #navigation > li > a {
+			color:#ffffff;
+		}
+	}
+	/* Finish Header Dropdown Link Color */
+
+
+	/* Start Header Dropdown Rollover Color */
+	.header_mid #navigation ul li > a:hover,
+	.header_mid #navigation ul li.current-menu-item > a,
+	.header_mid #navigation ul li.current_page_item > a,
+	.header_mid #navigation > li li.menu-item-highlight > a,
+	.header_mid #navigation > li li.menu-item-highlight > a:hover,
+	.header_mid #navigation > li.menu-item-mega li > a:hover,
+	.header_mid #navigation > li.menu-item-mega li li > a:hover,
+	.header_mid #navigation > li.menu-item-mega > ul > li > a:hover,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li > a:hover,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li.current-menu-item > a,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li.current_page_item > a,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li.menu-item-highlight > a,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li.menu-item-highlight > a:hover,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li.menu-item-highlight:hover > a:hover,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a:hover,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a[href]:hover,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container > ul li li > a:hover,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container > ul li li:hover > a:hover, 
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a > span:before {
+		color:#f3c14b;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_mid #navigation > li > a:hover,
+		.header_mid #navigation > li.current-menu-item > a,
+		.header_mid #navigation > li.current_page_item > a,
+		.header_mid #navigation > li.menu-item-highlight > a,
+		.header_mid #navigation > li > a:hover > span > span.nav_subtitle,
+		.header_mid #navigation > li.current-menu-item > a > span > span.nav_subtitle,
+		.header_mid #navigation > li.current_page_item > a > span > span.nav_subtitle,
+		.header_mid #navigation > li.menu-item-highlight > a > span > span.nav_subtitle {
+			color:#f3c14b;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_mid #navigation > li.menu-item-mega > ul > li > a,
+		.header_mid #navigation ul li:hover > a,
+		.header_mid #navigation > li li.menu-item-highlight:hover > a,
+		.header_mid #navigation > li.menu-item-mega li:hover > a,
+		.header_mid #navigation > li.menu-item-mega > ul > li:hover > a,
+		.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li:hover > a,
+		.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container > ul li li:hover > a,
+		.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li.menu-item-highlight:hover > a {
+			color:#f3c14b;
+		}
+	}
+
+	.header_mid #navigation > li:not(.menu-item-mega) ul li > a[data-tag]:hover:before, 
+	.header_mid #navigation > li:not(.menu-item-mega) ul li.current-menu-item > a[data-tag]:before,
+	.header_mid #navigation > li:not(.menu-item-mega) ul li.menu-item-highlight > a[data-tag]:before,
+	.header_mid #navigation > li.menu-item-mega li li:hover > a[data-tag]:hover:before,
+	.header_mid #navigation > li.menu-item-mega li li.current-menu-item > a[data-tag]:before, 
+	.header_mid #navigation > li.menu-item-mega li li.menu-item-highlight > a[data-tag]:before, 
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li.menu-item-highlight > a[data-tag]:before, 
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li > a[data-tag]:hover:before {
+		background-color:#f3c14b;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_mid #navigation > li > a[data-tag]:hover:before,
+		.header_mid #navigation > li.current-menu-item > a[data-tag]:before,
+		.header_mid #navigation > li.current_page_item > a[data-tag]:before,
+		.header_mid #navigation > li.menu-item-highlight > a[data-tag]:before {
+			background-color:#f3c14b;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_mid #navigation > li:not(.menu-item-mega) ul li:hover > a[data-tag]:before {
+			background-color:#f3c14b;
+		}
+	}
+	/* Finish Header Dropdown Rollover Color */
+
+
+	/* Start Header Dropdown Subtitle Color */
+	.header_mid #navigation > li > a > span.nav_subtitle, 
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a:hover > span > span.nav_subtitle,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a > span > span.nav_subtitle {
+		color:#b3b3b3;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_mid #navigation > li > a > span > span.nav_subtitle {
+			color:#b3b3b3;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li:hover > a > span > span.nav_subtitle {
+			color:#b3b3b3;
+		}
+	}
+	/* Finish Header Dropdown Subtitle Color */
+
+
+	/* Start Header Dropdown Background Color */
+	.header_mid input[type=text],
+	.header_mid input[type=number],
+	.header_mid input[type=email],
+	.header_mid input[type=password],
+	.header_mid input[type=search],
+	.header_mid input[type=submit],
+	.header_mid button,
+	.header_mid textarea,
+	.header_mid select,
+	.header_mid option,
+	.header_mid #navigation ul,
+	.header_mid #navigation > li.menu-item-mega li > a:hover,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container {
+		background-color:#292929;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_mid #navigation {
+			background-color:#292929;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_mid #navigation > li.menu-item-mega li:hover > a {
+			background-color:#292929;
+		}
+	}
+	/* Finish Header Dropdown Background Color */
+
+
+	/* Start Header Dropdown Rollover Background Color */
+	.header_mid #navigation ul li > a:hover,
+	.header_mid #navigation ul li.current-menu-item > a,
+	.header_mid #navigation ul li.current_page_item > a,
+	.header_mid #navigation ul li.menu-item-highlight > a,
+	.header_mid #navigation > li.menu-item-mega li li:hover > a:hover,
+	.header_mid #navigation > li.menu-item-mega li li.current-menu-item > a,
+	.header_mid #navigation > li.menu-item-mega li li.current_page_item > a,
+	.header_mid #navigation > li.menu-item-mega li.menu-item-highlight > a {
+		background-color:#292929;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_mid #navigation > li > a:hover,
+		.header_mid #navigation > li.current-menu-item > a,
+		.header_mid #navigation > li.current_page_item > a,
+		.header_mid #navigation > li.menu-item-mega > div > ul > li > a:hover, 
+		.header_mid #navigation > li.menu-item-mega > div > ul > li.current-menu-item > a {
+			background-color:#292929;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_mid #navigation ul li:hover > a {
+			background-color:#292929;
+		}
+	}
+	/* Finish Header Dropdown Rollover Background Color */
+
+
+	/* Start Header Dropdown Borders Color */
+	@media only screen and (max-width: 1024px) {
+		.header_mid #navigation li a, 
+		.header_mid #navigation > li > a:hover,
+		.header_mid #navigation > li.current-menu-item > a,
+		.header_mid #navigation > li.current_page_item > a {
+			border-color:#292929;
+		}
+	}
+
+	.header_mid #navigation ul li a,
+	.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container li li li:first-child {
+		border-top-color:#292929;
+	}
+	/* Finish Header Dropdown Borders Color */
+
+
+	/* Start Header Custom Rules */
+	.header_mid ::selection {
+		background:#3e3e3e;
+		color:#f9f9f9;
+	}
+
+	.header_mid ::-moz-selection {
+		background:#3e3e3e;
+		color:#f9f9f9;
+	}
+	
+		.header_mid,
+		.header_mid #navigation > li.menu-item-mega > div.menu-item-mega-container {
+			-webkit-box-shadow:0 2px 6px 0 rgba(41, 41, 41, 0.15);
+			-moz-box-shadow:0 2px 6px 0 rgba(41, 41, 41, 0.15);
+			box-shadow:0 2px 6px 0 rgba(41, 41, 41, 0.15);
+		}
+
+		.cmsmasters_boxed .header_mid {
+			-webkit-box-shadow:0 12px 12px -6px rgba(41, 41, 41, 0.15);
+			-moz-box-shadow:0 12px 12px -6px rgba(41, 41, 41, 0.15);
+			box-shadow:0 12px 12px -6px rgba(41, 41, 41, 0.15);
+		}
+
+		
+	/* Finish Header Custom Rules */
+
+/***************** Finish Header Color Scheme Rules ******************/
+
+
+/***************** Start Header Bottom Color Scheme Rules ******************/
+
+	/* Start Header Bottom Content Color */
+	.header_bot {
+		color:#ffffff;
+	}
+	/* Finish Header Bottom Content Color */
+
+
+	/* Start Header Bottom Primary Color */
+	.header_bot a,
+	.header_bot h1 a:hover,
+	.header_bot h2 a:hover,
+	.header_bot h3 a:hover,
+	.header_bot h4 a:hover,
+	.header_bot h5 a:hover,
+	.header_bot h6 a:hover,
+	.header_bot .color_2,
+	.header_bot h1,
+	.header_bot h2,
+	.header_bot h3,
+	.header_bot h4,
+	.header_bot h5,
+	.header_bot h6,
+	.header_bot h1 a,
+	.header_bot h2 a,
+	.header_bot h3 a,
+	.header_bot h4 a,
+	.header_bot h5 a,
+	.header_bot h6 a,
+	.header_bot #navigation > li > a,
+	.header_bot .social_wrap a:hover, 
+	.header_bot #navigation > li > a[data-tag]:before, 
+	.header_bot_inner .slogan_wrap .slogan_wrap_inner .slogan_wrap_text .cmsmasters_header_bot_btn:hover, 
+	.header_bot .cmsmasters-resp-nav-toggle.cmsmasters-icon-angle-down {
+		color:#ffffff;
+	}
+
+	.header_bot .button:hover {
+		background-color:#ffffff;
+	}
+
+	.header_bot input[type=text]:focus,
+	.header_bot input[type=email]:focus,
+	.header_bot input[type=password]:focus,
+	.header_bot input[type=search]:focus,
+	.header_bot textarea:focus {
+		border-color:#ffffff;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		#page .header_bot #navigation > li a .cmsmasters-resp-nav-toggle.cmsmasters-icon-angle-down:before {
+			color:#ffffff;
+		}
+	}
+	/* Finish Header Bottom Primary Color */
+
+
+	/* Start Header Bottom Secondary Color */
+	.header_bot #navigation li.menu-item-mega > div.menu-item-mega-container > ul > li > a[data-tag]:before, 
+	.header_bot #navigation > li > a[data-tag]:before, 
+	.header_bot_inner .slogan_wrap .slogan_wrap_inner .slogan_wrap_text .cmsmasters_header_bot_btn:hover {
+		background-color:#ce4e45;
+	}
+	/* Finish Header Bottom Secondary Color */
+
+
+	/* Start Header Bottom Rollover Color */
+	.header_bot a:hover,
+	.header_bot .button,
+	.header_bot #navigation > li > a:hover,
+	.header_bot #navigation > li.current-menu-item > a,
+	.header_bot #navigation > li.current_page_item > a,
+	.header_bot #navigation > li.current-menu-ancestor > a,
+	.header_bot #navigation > li.menu-item-highlight > a, 
+	.header_bot #navigation > li > a > span:before, 
+	.header_bot #navigation li.menu-item-mega > div.menu-item-mega-container > ul > li > a[data-tag] > span:before, 
+	.header_bot .cmsmasters-resp-nav-toggle.cmsmasters-icon-angle-up, 
+	.header_bot .resp_nav_wrap .resp_nav_wrap_inner .responsive_nav.active {
+		color:#f3c14b;
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_bot #navigation > li:hover > a {
+			color:#f3c14b;
+		}
+	}
+
+	.header_bot #navigation > li > a[data-tag]:hover:before, 
+	.header_bot #navigation > li.current-menu-item > a[data-tag]:before,
+	.header_bot #navigation > li.menu-item-highlight > a[data-tag]:before, 
+	.header_bot #navigation > li li.menu-item-highlight > a, 
+	.header_bot #navigation li.menu-item-mega > div.menu-item-mega-container > ul > li.menu-item-highlight > a[data-tag]:before, 
+	.header_bot #navigation li.menu-item-mega > div.menu-item-mega-container > ul > li > a[data-tag]:hover:before, 
+	.header_bot_inner .slogan_wrap .slogan_wrap_inner .slogan_wrap_text .cmsmasters_header_bot_btn {
+		background-color:#f3c14b;
+	}
+	/* Finish Header Bottom Rollover Color */
+
+
+	/* Start Header Bottom Subtitle Color */
+	.header_bot nav #navigation > li > a > span.nav_subtitle {
+		color:#9d9d9d;
+	}
+	/* Finish Header Bottom Subtitle Color */
+
+
+	/* Start Header Bottom Background Color */	
+	.header_bot input[type=text]:focus,
+	.header_bot input[type=number]:focus,
+	.header_bot input[type=email]:focus,
+	.header_bot input[type=password]:focus,
+	.header_bot input[type=search]:focus,
+	.header_bot textarea:focus,
+	.header_bot_outer {
+		background-color:#3e3e3e;
+	}
+	/* Finish Header Bottom Background Color */
+
+
+	/* Start Header Bottom Background Color on Scroll */
+	.header_bot_scroll .header_bot_outer {
+		background-color:#3e3e3e;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_bot_outer {
+			background-color:#3e3e3e;
+		}
+	}
+	/* Finish Header Bottom Background Color on Scroll */
+
+
+	/* Start Header Bottom Rollover Background Color */
+	.header_bot .header_bottom_hover_bg, 
+	.header_bot .header_bot_inner nav > div > ul > li.current-menu-item, 
+	.header_bot .header_bot_inner nav > div > ul > li.current_page_item, 
+	.header_bot .header_bot_inner nav > div > ul > li.current-menu-ancestor	{
+		background-color:#4a4a4a;
+	}
+	/* Finish Header Bottom Rollover Background Color */
+
+
+	/* Start Header Borders Color */
+	.header_bot input[type=text],
+	.header_bot input[type=number],
+	.header_bot input[type=email],
+	.header_bot input[type=password],
+	.header_bot input[type=seach],
+	.header_bot input[type=submit],
+	.header_bot button,
+	.header_bot textarea,
+	.header_bot select,
+	.header_bot option {
+		border-color:#3e3e3e;
+	}
+
+	.header_bot hr,
+	.header_bot .cmsmasters_divider {
+		border-bottom-color:#3e3e3e;
+	}
+	/* Finish Header Bottom Borders Color */
+
+
+	/* Start Header Bottom Dropdown Link Color */
+	.header_bot #navigation ul li a, 
+	.header_bot #navigation li.menu-item-mega > div.menu-item-mega-container > ul > li > a[data-tag]:before	{
+		color:#ffffff;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_bot #navigation > li > a {
+			color:#ffffff;
+		}
+	}
+
+	.header_bot #navigation ul li > a[data-tag]:before {
+		background-color:#ffffff;
+	}
+	/* Finish Header Bottom Dropdown Link Color */
+
+
+	/* Start Header Bottom Dropdown Rollover Color */
+	.header_bot #navigation ul li > a:hover,
+	.header_bot #navigation ul li.current-menu-item > a,
+	.header_bot #navigation ul li.current-menu-ancestor > a,
+	.header_bot #navigation ul li.current_page_item > a,
+	.header_bot #navigation > li li.menu-item-highlight > a,
+	.header_bot #navigation > li li.menu-item-highlight > a:hover,
+	.header_bot #navigation > li.menu-item-mega li > a:hover,
+	.header_bot #navigation > li.menu-item-mega li li > a:hover,
+	.header_bot #navigation > li.menu-item-mega > ul > li > a,
+	.header_bot #navigation > li.menu-item-mega > ul > li > a:hover,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container li > a:hover,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container li.current-menu-item > a,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container li.current_page_item > a,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container li.menu-item-highlight > a,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container li.menu-item-highlight > a:hover,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container li.menu-item-highlight:hover > a:hover,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a:hover,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a[href]:hover,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container > ul li li > a:hover,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container > ul li li:hover > a:hover {
+		color:#f3c14b;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_bot #navigation > li > a:hover,
+		.header_bot #navigation > li.current-menu-item > a,
+		.header_bot #navigation > li.current_page_item > a,
+		.header_bot #navigation > li.menu-item-highlight > a,
+		.header_bot #navigation > li > a:hover > span > span.nav_subtitle,
+		.header_bot #navigation > li.current-menu-item > a > span > span.nav_subtitle,
+		.header_bot #navigation > li.current_page_item > a > span > span.nav_subtitle,
+		.header_bot #navigation > li.menu-item-highlight > a > span > span.nav_subtitle {
+			color:#f3c14b;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_bot #navigation > li.menu-item-mega > ul > li > a,
+		.header_bot #navigation ul li:hover > a,
+		.header_bot #navigation > li li.menu-item-highlight:hover > a,
+		.header_bot #navigation > li.menu-item-mega li:hover > a,
+		.header_bot #navigation > li.menu-item-mega > ul > li:hover > a,
+		.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container li:hover > a,
+		.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container > ul li li:hover > a,
+		.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container li.menu-item-highlight:hover > a {
+			color:#f3c14b;
+		}
+	}
+
+	.header_bot #navigation > li:not(.menu-item-mega) ul li > a[data-tag]:hover:before, 
+	.header_bot #navigation > li:not(.menu-item-mega) ul li.current-menu-item > a[data-tag]:before,
+	.header_bot #navigation > li:not(.menu-item-mega) ul li.menu-item-highlight > a[data-tag]:before,
+	.header_bot #navigation > li.menu-item-mega li li:hover > a[data-tag]:hover:before,
+	.header_bot #navigation > li.menu-item-mega li li.current-menu-item > a[data-tag]:before, 
+	.header_bot #navigation > li.menu-item-mega li li.menu-item-highlight > a[data-tag]:before {
+		background-color:#f3c14b;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_bot #navigation > li > a[data-tag]:hover:before,
+		.header_bot #navigation > li.current-menu-item > a[data-tag]:before,
+		.header_bot #navigation > li.current_page_item > a[data-tag]:before,
+		.header_bot #navigation > li.menu-item-highlight > a[data-tag]:before {
+			background-color:#f3c14b;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_bot #navigation > li:not(.menu-item-mega) ul li:hover > a[data-tag]:before {
+			background-color:#f3c14b;
+		}
+	}
+	/* Finish Header Bottom Dropdown Rollover Color */
+
+
+	/* Start Header Bottom Dropdown Subtitle Color */
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a:hover > span > span.nav_subtitle,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li > a > span > span.nav_subtitle {
+		color:#b3b3b3;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_bot #navigation > li > a > span > span.nav_subtitle {
+			color:#b3b3b3;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container > ul > li:hover > a > span > span.nav_subtitle {
+			color:#b3b3b3;
+		}
+	}
+	/* Finish Header Bottom Dropdown Subtitle Color */
+
+
+	/* Start Header Bottom Dropdown Background Color */
+	.header_bot #navigation ul li > a[data-tag]:before {
+		color:#292929;
+	}
+
+	.header_bot input[type=text],
+	.header_bot input[type=number],
+	.header_bot input[type=email],
+	.header_bot input[type=password],
+	.header_bot input[type=search],
+	.header_bot input[type=submit],
+	.header_bot button,
+	.header_bot textarea,
+	.header_bot select,
+	.header_bot option,
+	.header_bot #navigation ul,
+	.header_bot #navigation > li.menu-item-mega li > a:hover,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container {
+		background-color:#292929;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_bot #navigation {
+			background-color:#292929;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_bot #navigation > li.menu-item-mega li:hover > a {
+			background-color:#292929;
+		}
+	}
+	/* Finish Header Bottom Dropdown Background Color */
+
+
+	/* Start Header Bottom Dropdown Rollover Background Color */
+	.header_bot #navigation ul li > a:hover,
+	.header_bot #navigation ul li.current-menu-item > a,
+	.header_bot #navigation ul li.current_page_item > a,
+	.header_bot #navigation ul li.menu-item-highlight > a,
+	.header_bot #navigation > li.menu-item-mega li li:hover > a:hover,
+	.header_bot #navigation > li.menu-item-mega li li.current-menu-item > a,
+	.header_bot #navigation > li.menu-item-mega li li.current_page_item > a,
+	.header_bot #navigation > li.menu-item-mega li.menu-item-highlight > a {
+		background-color:#292929;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_bot #navigation > li > a:hover,
+		.header_bot #navigation > li.current-menu-item > a,
+		.header_bot #navigation > li.current_page_item > a,
+		.header_bot #navigation > li.menu-item-mega > div > ul > li > a:hover, 
+		.header_bot #navigation > li.menu-item-mega > div > ul > li.current-menu-item > a {
+			background-color:#292929;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_bot #navigation ul li:hover > a {
+			background-color:#292929;
+		}
+	}
+	/* Finish Header Bottom Dropdown Rollover Background Color */
+
+
+	/* Start Header Bottom Dropdown Borders Color */
+	@media only screen and (max-width: 1024px) {
+		.header_bot #navigation li a, 
+		.header_bot #navigation > li > a:hover,
+		.header_bot #navigation > li.current-menu-item > a,
+		.header_bot #navigation > li.current_page_item > a {
+			border-color:#292929;
+		}
+	}
+
+	.header_bot #navigation ul li a,
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container li li li:first-child {
+		border-top-color:#292929;
+	}
+	/* Finish Header Bottom Dropdown Borders Color */
+
+
+	/* Start Header Bottom Custom Rules */
+	.header_bot ::selection {
+		background:#3e3e3e;
+		color:#3e3e3e;
+	}
+
+	.header_bot ::-moz-selection {
+		background:#3e3e3e;
+		color:#3e3e3e;
+	}
+	
+	.header_bot, 
+	.header_bot #navigation > li.menu-item-mega > div.menu-item-mega-container {
+		-webkit-box-shadow:0 4px 6px 0 rgba(41, 41, 41, 0.15);
+		-moz-box-shadow:0 4px 6px 0 rgba(41, 41, 41, 0.15);
+		box-shadow:0 4px 6px 0 rgba(41, 41, 41, 0.15);
+	}
+	
+	/* Finish Header Bottom Custom Rules */
+
+/***************** Finish Header Bottom Color Scheme Rules ******************/
+
+
+/***************** Start Header Top Color Scheme Rules ******************/
+
+	/* Start Header Top Content Color */
+	.header_top,
+	.header_top_inner .social_wrap a {
+		color:#f0f0f0;
+	}
+	/* Finish Header Top Content Color */
+
+
+	/* Start Header Top Primary Color */
+	.header_top a,
+	.header_top h1 a:hover,
+	.header_top h2 a:hover,
+	.header_top h3 a:hover,
+	.header_top h4 a:hover,
+	.header_top h5 a:hover,
+	.header_top h6 a:hover,
+	.header_top .color_2,
+	.header_top h1,
+	.header_top h2,
+	.header_top h3,
+	.header_top h4,
+	.header_top h5,
+	.header_top h6,
+	.header_top h1 a,
+	.header_top h2 a,
+	.header_top h3 a,
+	.header_top h4 a,
+	.header_top h5 a,
+	.header_top h6 a,
+	.responsive_top_nav, 
+	.header_top #top_line_nav > li > a, 
+	.header_top #top_line_nav > li:after {
+		color:#ffffff;
+	}
+
+	.header_top .button:hover {
+		background-color:#ffffff;
+	}
+
+	.header_top input[type=text]:focus,
+	.header_top input[type=number]:focus,
+	.header_top input[type=email]:focus,
+	.header_top input[type=password]:focus,
+	.header_top input[type=search]:focus,
+	.header_top textarea:focus {
+		border-color:#ffffff;
+	}
+
+	.header_top_but .cmsmasters-icon-up-open-1:before, 
+	.header_top_but .cmsmasters-icon-up-open-1:after, 
+	.header_top_but .cmsmasters-icon-up-open-1 span:before, 
+	.header_top_but .cmsmasters-icon-up-open-1 span:after, 
+	.header_top_but .cmsmasters-icon-down-open-1:before, 
+	.header_top_but .cmsmasters-icon-down-open-1:after, 
+	.header_top_but .cmsmasters-icon-down-open-1 span:before, 
+	.header_top_but .cmsmasters-icon-down-open-1 span:after {
+		border-color:#ffffff;
+	}
+
+	.header_top .header_top_outer .header_top_inner .header_top_left, 
+	.header_top .header_top_outer .header_top_inner .header_top_right {
+		border-color:#ffffff;
+	}
+
+	/* Finish Header Top Primary Color */
+
+
+	/* Start Header Top Rollover Color */
+	.responsive_top_nav:hover,
+	.responsive_top_nav.active, 
+	.header_top a:hover,
+	.header_top .button,
+	.header_top_inner .social_wrap a:hover, 
+	.header_top #top_line_nav > li > a:hover,
+	.header_top #top_line_nav > li.current-menu-item > a,
+	.header_top #top_line_nav > li.current_page_item > a {
+		color:#3e3e3e;
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_top #top_line_nav > li:hover > a {
+			color:#3e3e3e;
+		}
+	}
+	/* Finish Header Top Rollover Color */
+
+
+	/* Start Header Top Background Color */
+	.header_top #top_line_nav > li > a > span.cmsmasters_count {
+		color:#636363;
+	}
+	
+	.header_top input[type=text]:focus,
+	.header_top input[type=number]:focus,
+	.header_top input[type=email]:focus,
+	.header_top input[type=password]:focus,
+	.header_top input[type=search]:focus,
+	.header_top textarea:focus,
+	.header_top {
+		background-color:#636363;
+	}
+	/* Finish Header Top Background Color */
+
+
+	/* Start Header Top Borders Color */
+	.header_top input[type=text],
+	.header_top input[type=number],
+	.header_top input[type=email],
+	.header_top input[type=password],
+	.header_top input[type=search],
+	.header_top input[type=submit],
+	.header_top button,
+	.header_top textarea,
+	.header_top select,
+	.header_top option {
+		border-color:#aaaaaa;
+	}
+
+	.header_top hr,
+	.header_top .cmsmasters_divider {
+		border-bottom-color:#aaaaaa;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		html #page #header .header_top .header_top_outer .header_top_inner .header_top_right {
+			background-color:#aaaaaa;
+		}
+	}
+	/* Finish Header Top Borders Color */
+
+
+	/* Start Header Top Dropdown Link Color */
+	.header_top #top_line_nav ul li a {
+		color:#cfcfcf;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_top #top_line_nav > li > a {
+			color:#cfcfcf;
+		}
+	}
+	/* Finish Header Top Dropdown Link Color */
+
+
+	/* Start Header Top Dropdown Rollover Color */
+	.header_top #top_line_nav ul li > a:hover,
+	.header_top #top_line_nav ul li.current-menu-item > a,
+	.header_top #top_line_nav ul li.current_page_item > a {
+		color:#ffffff;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_top #top_line_nav > li > a:hover,
+		.header_top #top_line_nav > li.current-menu-item > a,
+		.header_top #top_line_nav > li.current_page_item > a {
+			color:#ffffff;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_top #top_line_nav ul li:hover > a {
+			color:#ffffff;
+		}
+	}
+	/* Finish Header Top Dropdown Rollover Color */
+
+
+	/* Start Header Top Dropdown Background Color */	
+	.header_top input[type=text],
+	.header_top input[type=number],
+	.header_top input[type=email],
+	.header_top input[type=password],
+	.header_top input[type=search],
+	.header_top input[type=submit],
+	.header_top button,
+	.header_top textarea,
+	.header_top select,
+	.header_top option {
+		background-color:#292929;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.header_top #top_line_nav {
+			background-color:#292929;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		.header_top #top_line_nav ul {
+			background-color:#292929;
+		}
+	}
+	/* Finish Header Top Dropdown Background Color */
+
+
+	/* Start Header Top Dropdown Border Color */
+	@media only screen and (max-width: 1024px) {
+		.header_top #top_line_nav li a, 
+		.header_top #top_line_nav > li > a:hover,
+		.header_top #top_line_nav > li.current-menu-item > a,
+		.header_top #top_line_nav > li.current_page_item > a {
+			border-color:#292929;
+		}
+	}
+
+	.header_top #top_line_nav ul li a {
+		border-top-color:#292929;
+	}
+	/* Finish Header Top Dropdown Border Color */
+
+
+	/* Start Header Top Custom Rules */
+	.header_top ::selection {
+		background:#ffffff;
+		color:#636363;
+	}
+
+	.header_top ::-moz-selection {
+		background:#ffffff;
+		color:#636363;
+	}
+	
+	/* Finish Header Top Custom Rules */
+
+/***************** Finish Header Top Color Scheme Rules ******************/
+
