@@ -296,6 +296,9 @@ public function cmsmasters_row($atts, $content = null) {
 	$out_finish = '</div>' . "\n" . 
 		'</div>' . "\n" . 
 	'</div>' . "\n";
+
+    // remove extra space
+    $out_style .= "#cmsmasters_row_{$unique_id} + p { padding-bottom:0 !important; }";
 	
 	
 	$out = (($out_style != '' || $out_style_content != '') ? $out_style_start . $out_style . $out_style_content . $out_style_finish : '') . 
