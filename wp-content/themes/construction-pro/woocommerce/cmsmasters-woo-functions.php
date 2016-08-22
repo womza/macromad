@@ -76,17 +76,17 @@ function construction_pro_woocommerce_add_to_cart_button() {
 		$product->product_type == 'simple' && 
 		$product->is_in_stock() 
 	) {
-		echo '<a href="' . esc_url($product->add_to_cart_url()) . '" data-product_id="' . esc_attr($product->id) . '" data-product_sku="' . esc_attr($product->get_sku()) . '" class="button add_to_cart_button cmsmasters_add_to_cart_button product_type_simple cmsmasters_theme_icon_basket ajax_add_to_cart" title="' . esc_attr__('Add to Cart', 'construction-pro') . '">' . 
-			'<span>' . esc_html__('Add to Cart', 'construction-pro') . '</span>' . 
+		echo '<a href="' . esc_url($product->add_to_cart_url()) . '" data-product_id="' . esc_attr($product->id) . '" data-product_sku="' . esc_attr($product->get_sku()) . '" class="button add_to_cart_button cmsmasters_add_to_cart_button product_type_simple cmsmasters_theme_icon_basket ajax_add_to_cart" title="' . esc_attr__('Agregar', 'construction-pro') . '">' .
+			'<span>' . esc_html__('Agregar', 'construction-pro') . '</span>' .
 		'</a>' . 
-		'<a href="' . esc_url($woocommerce->cart->get_cart_url()) . '" class="button added_to_cart wc-forward cmsmasters_theme_icon_check" title="' . esc_attr__('View Cart', 'construction-pro') . '">' . 
-			'<span>' . esc_html__('View Cart', 'construction-pro') . '</span>' . 
+		'<a href="' . esc_url($woocommerce->cart->get_cart_url()) . '" class="button added_to_cart wc-forward cmsmasters_theme_icon_check" title="' . esc_attr__('Ver Carrito', 'construction-pro') . '">' .
+			'<span>' . esc_html__('Ver Carrito', 'construction-pro') . '</span>' .
 		'</a>';
 	}
 	
 	
 	echo '<a href="' . esc_url(get_permalink($product->id)) . '" data-product_id="' . esc_attr($product->id) . '" data-product_sku="' . esc_attr($product->get_sku()) . '" class="button cmsmasters_details_button cmsmasters_theme_icon_details">' . 
-		'<span>' . esc_html__('Show Details', 'construction-pro') . '</span>' . 
+		'<span>' . esc_html__('Detalles', 'constructionpro') . '</span>' .
 	'</a>';
 }
 
