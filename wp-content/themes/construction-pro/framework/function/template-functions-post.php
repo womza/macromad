@@ -301,7 +301,7 @@ function cmsmasters_post_more_simple($cmsmasters_id, $show = true) {
 	
 	
 	if ($cmsmasters_post_read_more == '') {
-		$cmsmasters_post_read_more = esc_attr__('Read more', 'construction-pro');
+		$cmsmasters_post_read_more = esc_attr__('Leer más');
 	}
 	
 	
