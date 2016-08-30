@@ -301,7 +301,7 @@ public function cmsmasters_row($atts, $content = null) {
     $out_style .= "#cmsmasters_row_{$unique_id} + p { padding-bottom:0 !important; }";
 
     // hide left column for contact us
-    $out_style .= "#cmsmasters_row_{$unique_id} .cmsmasters_tabs_list { visibility: hidden; }";
+    $out_style .= "#cmsmasters_row_{$unique_id} .cmsmasters_tabs_list { display: none; }";
 	
 	
 	$out = (($out_style != '' || $out_style_content != '') ? $out_style_start . $out_style . $out_style_content . $out_style_finish : '') . 
