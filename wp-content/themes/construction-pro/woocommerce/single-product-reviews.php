@@ -28,7 +28,7 @@ if ( ! comments_open() ) {
 		
 		<h2><?php
 			if ( get_option( 'woocommerce_enable_review_rating' ) === 'yes' && ( $count = $product->get_review_count() ) )
-				printf( _n( '%s review for %s', '%s reviews for %s', $count, 'woocommerce' ), $count, get_the_title() );
+				printf( _n( '%s valoración para %s', '%s valoraciones para %s', $count, 'woocommerce' ), $count, get_the_title() );
 			else
 				esc_html_e( 'Reviews', 'woocommerce' );
 		?></h2>
@@ -64,7 +64,7 @@ if ( ! comments_open() ) {
 					$commenter = wp_get_current_commenter();
 
 					$comment_form = array(
-						'title_reply'          => have_comments() ? esc_html__( 'Add a review', 'woocommerce' ) : esc_html__( 'Be the first to review', 'woocommerce' ) . ' &ldquo;' . get_the_title() . '&rdquo;',
+						'title_reply'          => have_comments() ? esc_html__( 'Add a review', 'woocommerce' ) : esc_html__( 'Sé el primero en valorar' ) . ' &ldquo;' . get_the_title() . '&rdquo;',
 						'title_reply_to'       => esc_html__( 'Leave a Reply to %s', 'woocommerce' ),
 						'comment_notes_before' => '',
 						'comment_notes_after'  => '',
