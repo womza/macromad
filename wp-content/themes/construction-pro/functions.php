@@ -561,3 +561,24 @@ function construction_pro_comment_field_to_bottom( $fields ) {
 
 
 add_filter( 'comment_form_fields', 'construction_pro_comment_field_to_bottom' );
+
+
+/**
+ * Return url of post
+ */
+function get_url_of_content_by_category_id($category_id) {
+	$permalink = "#";
+	$arg = array(
+		'category' => (int) $category_id,
+		'numberposts' => 1,
+	);
+
+	if ($posts = get_posts($arg)) {
+		foreach ($posts as $post) {
+			$permalink = the_permalink($post);
+		}
+		wp_reset_postdata();
+	}
+
+	return $permalink;
+}

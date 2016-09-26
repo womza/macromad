@@ -8537,3 +8537,31 @@ html.csstransitions .cmsmasters_stats.stats_mode_bars.shortcode_animated .cmsmas
     opacity: 1;
   }
 }
+
+
+/* list categories */
+.list-of-categories {
+  padding: 200px 0 25px;
+}
+.list-of-categories ul {
+  list-style: none;
+  width:100%;
+  text-align: center;
+  margin: 0;
+  padding:0;
+}
+.list-of-categories li {
+  display:inline-block;
+  margin:10px 5px;
+}
+.list-of-categories li::before {
+  content:"";
+}
+.list-of-categories li a {
+  display:inline-block;
+}
+.list-of-categories li a > img {
+  margin:0;
+  width: 220px;
+  height: 147px;
+}
