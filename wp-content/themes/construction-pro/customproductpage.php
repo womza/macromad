@@ -23,8 +23,6 @@ $categories = get_categories(
 		"orderby" => "term_id",
 	)
 );
-
-
 ?>
 
 <div class="list-of-categories">
@@ -32,11 +30,8 @@ $categories = get_categories(
 		<?php foreach($categories as $category): ?>
 			<li>
 				<a title="<?php echo $category->name; ?>" href="<?php print get_url_of_content_by_category_id($category->cat_ID); ?>">
-				<?php if (!empty($category->description)): ?>
-					<?php echo $category->description; ?>
-				<?php else: ?>
-					<?php echo $category->name; ?>
-				<?php endif ?>
+					<div class="list-of-categories-image"><?php echo $category->description; ?></div>
+					<div class="list-of-categories-title"><?php echo $category->name; ?></div>
 				</a>
 			</li>
 		<?php endforeach; ?>
